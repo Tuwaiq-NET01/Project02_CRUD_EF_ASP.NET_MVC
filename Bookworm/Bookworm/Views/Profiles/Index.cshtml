@@ -1,0 +1,31 @@
+﻿@page
+@model Bookworm.Views.Profiles.IndexModel
+@{
+    var profiles = (List<ProfileModel>)ViewBag.Profiles;
+}
+
+<div class="ui center aligned container">
+    <div class="ui link cards" style="margin-left:85px">
+        @foreach (var profile in profiles)
+        {
+            <div class="card">
+                <div class="image">
+                    <img src=@profile.Avatar>
+                </div>
+                <div class="content">
+                    <div class="header">@profile.Name</div>
+                    <div class="meta">
+                        @profile.Bio
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span>
+                        <i class="pencil alternate icon"></i>
+                        75 Reviews
+                    </span>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

@@ -1,0 +1,50 @@
+﻿@page
+@model Bookworm.Views.Books.DetailsModel
+@{
+    var book = (BookModel)ViewBag.Book;
+}
+
+<div class="ui center aligned container">
+    <div class="ui link cards" style="margin-left:85px">
+
+        <div class="card">
+            <div class="image">
+                <img src=@book.Cover>
+            </div>
+            <div class="content">
+                <div class="header">@book.Title</div>
+                <div class="meta">
+                    @book.Author
+                </div>
+            </div>
+            <div class="extra content">
+                <span>
+                    <i class="pencil alternate icon"></i>
+                    75 Reviews
+                </span>
+            </div>
+        </div>
+        @foreach (var review in @book.Reviews)
+        {
+
+            <div class="comment">
+                <a class="avatar">
+                    <img src=@review.User.Profile.Avatar>
+                </a>
+                <div class="content">
+                    <a class="author">@review.User.Profile.Name</a>
+                    <div class="metadata">
+                        <span class="date">@review.Book.Title</span>
+                    </div>
+                    <div class="text">
+                        @review.Content
+                    </div>
+                    <div class="actions">
+                        <a class="reply">Reply</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

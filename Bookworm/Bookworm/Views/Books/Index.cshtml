@@ -1,0 +1,31 @@
+﻿@page
+@model Bookworm.Views.Books.IndexModel
+@{
+    var books = (List<BookModel>)ViewBag.Books;
+}
+
+<div class="ui center aligned container">
+    <div class="ui link cards" style="margin-left:85px">
+        @foreach (var book in books)
+        {
+            <div class="card">
+                <div class="image">
+                    <img src=@book.Cover>
+                </div>
+                <div class="content">
+                    <div class="header">@book.Title</div>
+                    <div class="meta">
+                        @book.Author
+                    </div>
+                </div>
+                <div class="extra content">
+                    <span>
+                        <i class="pencil alternate icon"></i>
+                        @book.Reviews.Count Reviews
+                    </span>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
