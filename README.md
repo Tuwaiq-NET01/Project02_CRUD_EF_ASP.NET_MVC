@@ -17,7 +17,7 @@
 <br/>
 
 <p align="center">
-  <img src="https://github.com/YounesAlturkey/Project03/blob/main/public/demo.gif" alt="demo"/>
+  <img src="https://raw.githubusercontent.com/YounesAlturkey/PokeWars/main/frontend/public/demo.png" alt="demo"/>
 </p>
 
 <div dir="rtl">
