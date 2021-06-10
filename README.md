@@ -10,6 +10,8 @@
 </h1>
 <h4 align="center">Simple CRUD app with .NET Core and React</h4>
 
+## [► Swagger UI](https://pokewars.azurewebsites.net/swagger/index.html)
+
 ## [► Live Demo](https://younesalturkey.github.io/Project03/)
 
 <br/>
