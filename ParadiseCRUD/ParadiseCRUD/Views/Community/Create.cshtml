@@ -1,0 +1,25 @@
+﻿
+<h1 style="color:whitesmoke; font-family:'Comic Sans MS';margin-left:350px; margin-bottom:50px">Leave a Comment (:</h1>
+@model Comment
+    <div style="text-align:center; margin-left:420px; display: inline-block">
+        <form asp-action="Create" method="post">
+            <div style="color:whitesmoke; font-family:'Comic Sans MS'">
+
+                <label class="form-label" asp-for="Name">Flower or Plant Name</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Name" required class="form-control" />
+                </div>
+
+                <label class="form-label" asp-for="Message">Comment</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Message" class="form-control" />
+                </div>
+
+                <br />
+                <div class="form-group mb-4">
+                    <input type="submit" class="btn btn-info" value="Send" />
+                </div>
+
+            </div>
+        </form>
+    </div>

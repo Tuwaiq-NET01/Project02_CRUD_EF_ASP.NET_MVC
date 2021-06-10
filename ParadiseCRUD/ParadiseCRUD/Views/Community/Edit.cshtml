@@ -1,0 +1,31 @@
+﻿
+<h1 style="color:whitesmoke; font-family:'Comic Sans MS';margin-left:300px">Update the comment</h1>
+
+@model Comment
+@{
+    var Comment = (Comment)ViewData["Comment"];
+}
+
+<div style="text-align:center; margin-left:420px; display: inline-block">
+    <form asp-action="Edit" method="post" asp-route-id="@Comment.ID">
+        <div style=" color: whitesmoke;
+        font-family: 'Comic Sans MS';
+        text-shadow: 2px 2px 4px #000000">
+
+            <label class="form-label" asp-for="Name">Flower or Plant Name</label>
+            <div class="form-outline mb-4">
+                <input asp-for="Name" value=@Comment.Name class="form-control" required />
+            </div>
+
+            <label class="form-label" asp-for="Message">Message</label>
+            <div class="form-outline mb-4">
+                <input asp-for="Message" value=@Comment.Message class="form-control" />
+            </div>
+            <br />
+            <div class="form-group mb-4">
+                <input type="submit" class="btn btn-info" value="Submit" />
+            </div>
+
+        </div>
+    </form>
+</div>

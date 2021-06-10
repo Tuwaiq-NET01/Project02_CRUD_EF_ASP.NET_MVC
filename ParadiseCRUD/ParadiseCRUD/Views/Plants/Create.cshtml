@@ -1,0 +1,48 @@
+﻿
+<h1 style="color:whitesmoke; font-family:'Comic Sans MS';margin-left:300px">Add Your Favorite Plant</h1>
+@model Plant
+    <div style="text-align:center; margin-left:420px; display: inline-block">
+        <form asp-action="Create" method="post">
+            <div style="        color: whitesmoke;
+        font-family: 'Comic Sans MS';
+        text-shadow: 2px 2px 4px #000000">
+
+                <label class="form-label" asp-for="Name">Plant Name</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Name" required class="form-control" />
+                </div>
+
+                <label class="form-label" asp-for="Image">Image</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Image" class="form-control" />
+                    <span asp-validation-for="Image" class="text-danger"> </span>
+                </div>
+
+                <label  class="form-label" asp-for="Tempreture">Tempreture</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Tempreture" class="form-control" />
+                </div>
+
+                <label  class="form-label" asp-for="LevelCare">LevelCare</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="LevelCare" class="form-control" />
+                </div>
+
+                <label  class="form-label" asp-for="Place">Place</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Place" class="form-control"/>
+                </div>
+
+                <label  class="form-label" asp-for="Size">Size</label>
+                <div class="form-outline mb-4">
+                    <input asp-for="Size"class="form-control" />
+                </div>
+
+                <br />
+                <div class="form-group mb-4">
+                    <input type="submit" class="btn btn-info" value="Submit" />
+                </div>
+
+            </div>
+        </form>
+    </div>

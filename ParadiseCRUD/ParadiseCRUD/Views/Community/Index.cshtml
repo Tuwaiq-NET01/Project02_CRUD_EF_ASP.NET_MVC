@@ -1,0 +1,32 @@
+﻿
+@{
+    var Comments = (List<Comment>)ViewData["Comments"];
+
+}
+<h1 style="color:whitesmoke; font-family:'Comic Sans MS';margin-left:340px">Community of Plants Lover</h1>
+<a style="color: olivedrab;
+        text-shadow: 2px 2px 4px #000000;
+        font-family: 'Comic Sans MS';
+        margin-left: 490px;
+        font-size: 25px
+" href="/Community/Create">Leave a comment</a>
+
+@foreach (var comment in Comments)
+{
+
+    <ul class="list-group" style="font-family:'Comic Sans MS'; margin-top:40px; margin-left:100px;
+margin-right:100px">
+        <li style="color:antiquewhite; font-size:25px">@comment.Name</li>
+        <li class="list-group-item">
+            @comment.Message
+            <div class="form-inline ">
+                <a class="btn btn-outline-warning ml-3 mr-3" asp-controller="Community" asp-action="Edit" asp-route-id="@comment.ID" role="link">Update</a>
+                <form method="post" asp-controller="Community" asp-action="Delete" asp-route-id="@comment.ID">
+                    <input type="submit" value="Drop" class="btn btn-outline-danger ml-2" />
+                </form>
+                </div>
+        </li>
+        <li class="list-group-item"></li>
+    </ul>
+
+}
