@@ -1,0 +1,25 @@
+﻿
+@{
+    Movie movie = (Movie)ViewBag.Movie;
+}
+
+<div class="card mb-3">
+    <img class="card-img-top" src="@movie.Poster" alt="image Not Available" height="400" style="image-rendering: auto">
+    <div class="card-body">
+        <h3>@movie.Title</h3>
+        <p>Cast: @movie.Cast</p>
+        <p>@movie.Description</p>
+        <p>Rating: @movie.Rating</p>
+        <div class="btn-group" role="group" style="align-items: center; margin-left:30px; margin-right:auto;">
+            <form method="get" asp-controller="Home" asp-action="Details" asp-route-id="@movie.Id">
+                <input type="submit" value="Show" class="btn btn-success" />
+            </form>
+            <form method="get" asp-controller="Home" asp-action="Edit" asp-route-id="@movie.Id">
+                <input type="submit" value="Edit" class="btn btn-success" />
+            </form>
+            <form method="post" asp-controller="Home" asp-action="Delete" asp-route-id="@movie.Id">
+                <input type="submit" value="Delete" class="btn btn-success" />
+            </form>
+        </div>
+    </div>
+</div>

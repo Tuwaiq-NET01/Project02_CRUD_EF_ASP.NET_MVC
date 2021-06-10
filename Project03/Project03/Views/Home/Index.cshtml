@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Movies";
+    List<Movie> Movies = (List<Movie>)ViewBag.Movies;
+}
+<div class="card-columns">
+    @foreach (var movie in Movies)
+    {
+        <div class="card" style="width: 18rem;">
+            <a asp-controller="Home" asp-action="Details" asp-route-id="@movie.Id">
+                <img class="card-img-top" src="@movie.Poster" alt="image Not Available" height="200" width="60" style="image-rendering: auto">
+            </a>
+        </div>
+
+      
+    }
+
+
+</div>
