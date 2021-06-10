@@ -12,7 +12,7 @@
 
 ## [► Swagger UI](https://pokewars.azurewebsites.net/swagger/index.html)
 
-## [► Live Demo](https://younesalturkey.github.io/Project03/)
+## [► Live Demo](https://younesalturkey.github.io/PokeWars/)
 
 <br/>
 
