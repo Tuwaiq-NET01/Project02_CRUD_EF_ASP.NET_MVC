@@ -1,0 +1,61 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Changa', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(89deg, #b92b27 0%, #1565c0 100%);
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #b92b27;
+  text-decoration: none;
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+strong:hover {
+  cursor: pointer;
+}
+
+.bg-accent {
+  background: linear-gradient(89deg, #1565c0 0%, #b92b27 100%);
+}
+
+.bg-google {
+  background: #4285f4;
+}
+
+.scrollable {
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.text-accent {
+  color: #121212;
+}
