@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 export class Counter extends Component {
   static displayName = Counter.name;
 
@@ -9,10 +8,9 @@ export class Counter extends Component {
     this.incrementCounter = this.incrementCounter.bind(this);
   }
 
-  incrementCounter() {
-    this.setState({
-      currentCount: this.state.currentCount + 1
-    });
+
+  addGame = (game) => {
+      console.log("HERE TO ADD GAME// ", game);
   }
 
   render() {
@@ -25,6 +23,10 @@ export class Counter extends Component {
         <p aria-live="polite">Current count: <strong>{this.state.currentCount}</strong></p>
 
         <button className="btn btn-primary" onClick={this.incrementCounter}>Increment</button>
+
+
+
+
       </div>
     );
   }
