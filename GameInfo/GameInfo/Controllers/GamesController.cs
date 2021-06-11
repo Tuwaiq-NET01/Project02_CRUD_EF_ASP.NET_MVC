@@ -48,8 +48,17 @@ namespace GameInfo.Controllers
         {
             _context.Games.Add(game);
             await _context.SaveChangesAsync();
-
             return CreatedAtAction("GetUser", new { id = game.Id }, game);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteGame(int id)
+        {
+            var game = await _context.Games.FindAsync(id);
+            _context.Games.Remove(game);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
 
