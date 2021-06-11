@@ -52,13 +52,13 @@ namespace GameInfo.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteGame(int id)
+        public async Task<ActionResult<IEnumerable<Game>>> DeleteGame(int id)
         {
-            var game = await _context.Games.FindAsync(id);
+            var game = _context.Games.Find(id);
             _context.Games.Remove(game);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return await _context.Games.ToListAsync();
         }
 
 

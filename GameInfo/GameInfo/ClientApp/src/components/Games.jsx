@@ -51,6 +51,7 @@ const addGame  = (e) => {
         axios.delete(`https://localhost:44384/api/games/${game}`)
 .then(res => {
   console.log(res)
+  setAllGames(res.data)
 })
 .catch(err => {
   console.error(err); 
