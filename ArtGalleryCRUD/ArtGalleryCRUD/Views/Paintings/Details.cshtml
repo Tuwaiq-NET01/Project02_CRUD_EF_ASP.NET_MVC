@@ -1,0 +1,38 @@
+﻿@{
+    var Painting = (PaintingModel)ViewData["Painting"];
+   
+
+}
+
+
+
+<div class="card mb-5" style="margin-bottom:20px; margin-top:20px; text-align:center">
+    <div class="card mb-12">
+        <h3 class="card-header">  @Painting.PntName</h3>
+        <div class="card-body">
+
+            <div class="row" style="align-content: center">
+                <div class="col d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="@Painting.PntImg" alt="Card image cap" height="400" width="200">
+                </div>
+            </div>
+            <div>
+                <p>
+                    @Painting.PntOverview
+                </p>
+             
+            </div>
+        </div>
+
+        <div class="card-body">
+            <div class="card-body">
+                <a href="/Paintings" class="btn btn-dark">Back</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+

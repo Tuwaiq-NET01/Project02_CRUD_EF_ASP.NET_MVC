@@ -1,0 +1,45 @@
+﻿@{
+    var Paintings = (List<PaintingModel>)ViewData["Paintings"];
+}
+<button class="btn">
+    <div>
+
+        <h5>Add painting</h5>
+        <i class="large material-icons"><a href="/Paintings/Add" class="btn btn-dark">add_circle</a></i>
+
+    </div>
+
+</button>
+
+<h1 style="text-align: center; color: #808080; margin-top: 10%;">Paintings</h1>
+
+
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var item in Paintings)
+        {
+
+            <div class="col-4" style="margin-bottom:20px" text-align:center">
+                <div class="card mb-3">
+                    <h3 class="card-header">@item.PntName</h3>
+                    <div class="card-body text-center">
+                        <img class="card-img-top" src="@item.PntImg" alt="Card image cap" height="200" width="80">
+                    </div>
+
+                    <div class="card-body text-center">
+                        <a class="btn btn-dark ml-5" asp-controller="Paintings" asp-action="Details" asp-route-id="@item.PntId">See More</a>
+
+                    </div>
+                    <a asp-controller="Paintings" asp-action="Edit" asp-route-id="@item.PntId" class="text-center"><i class="large material-icons">create</i></a>
+                    <a asp-controller="Paintings" asp-action="Delete" asp-route-id="@item.PntId" class="text-center"><i class="large material-icons" style="color: red; margin-left: 7px"> delete_forever</i></a>
+
+                </div>
+            </div>
+
+
+        }
+
+    </div>
+</div>

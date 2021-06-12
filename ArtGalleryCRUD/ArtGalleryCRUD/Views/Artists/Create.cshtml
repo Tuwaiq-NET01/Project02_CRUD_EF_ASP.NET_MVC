@@ -1,0 +1,30 @@
+﻿@model ArtistModel
+<h1>Create Artist Form</h1>
+
+
+<form asp-action="Create" method="post" class="form-horizontal">
+    
+    <div class="form-group">
+        <label asp-for="ArtName">Artist Name</label>
+        <div>
+            <input asp-for="ArtName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="ArtImg">Art Image</label>
+        <div>
+            <input asp-for="ArtImg" />
+        </div>
+        <span asp-validation-for="ArtImg"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ArtBio">Artist Bio</label>
+        <div>
+            <input asp-for="ArtBio" />
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-dark" value="Submit" style="margin-top:10px" />
+
+        </div>
+    </div>
+</form>

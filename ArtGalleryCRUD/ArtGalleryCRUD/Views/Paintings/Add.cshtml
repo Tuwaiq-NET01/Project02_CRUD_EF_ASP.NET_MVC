@@ -1,0 +1,42 @@
+﻿@model PaintingModel
+
+<h1>Add  Painting Form</h1>
+
+
+<form asp-action="Add" method="post" class="form-horizontal">
+
+    <div class="form-group">
+        <label asp-for="PntName">Painting Name</label>
+        <div>
+            <input asp-for="PntName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="PntImg">Painting Image</label>
+        <div>
+            <input asp-for="PntImg" />
+        </div>
+        <span asp-validation-for="PntImg"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PntOverview">Painting Overview</label>
+        <div>
+            <input asp-for="PntOverview" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PntPrice">Painting Price</label>
+            <div>
+                <input asp-for="PntPrice" />
+            </div>
+
+
+
+            <div class="form-group">
+                <input type="submit" class="btn btn-dark" value="Submit" style="margin-top:10px" />
+
+            </div>
+        </div>
+    </div>
+
+</form>

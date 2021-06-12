@@ -1,0 +1,43 @@
+﻿@{
+    var Buyers = (List<BuyerModel>)ViewData["Buyers"];
+}
+
+<h1 style="text-align: center; color:#000000; margin-top: 10%;">Buyers</h1>
+
+
+
+
+
+<div class="main-content">
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Buyer Name</th>
+            <th>Buyer Email</th>
+            <th>Buyer Phone </th>
+            
+
+        </tr>
+        @foreach (var item in Buyers)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m => item.ByrID)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.ByrName)
+                </td>
+                <td>
+                    @Html.DisplayFor(m => item.ByrMail)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(m => item.ByrPhone)
+                </td>
+                
+                
+
+            </tr>
+        }
+    </table>
+</div>

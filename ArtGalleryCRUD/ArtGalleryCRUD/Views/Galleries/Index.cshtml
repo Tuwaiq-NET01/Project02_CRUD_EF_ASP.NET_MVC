@@ -1,0 +1,28 @@
+﻿@{
+    var Galleries = (List<GalleryModel>)ViewData["Galleries"];
+}
+
+<h1 style="text-align: center; color: #ffffff; margin-top: 10%;">Paintings</h1>
+
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var item in Galleries)
+        {
+
+            <div class="col-4" style="margin-bottom:20px" text-align:center">
+                <div class="card mb-3">
+                    <h3 class="card-header">@item.GlrName at @item.GlrLocation</h3>
+                    <div class="card-body">
+                        <img class="card-img-top" src="@item.GlrImg" alt="Card image cap" height="200" width="80">
+                    </div>
+
+                </div>
+            </div>
+
+
+        }
+
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model PaintingModel
+
+@{
+    var Painting = (PaintingModel)ViewData["Painting"];
+}
+<h1>Edit Painting Form</h1>
+<form asp-action="Edit" method="post" asp-route-id="@Painting.PntId" class="form-horizontal">
+
+    <div class="form-group">
+        <label asp-for="PntName">Name</label>
+        <div>
+            <input asp-for="PntName" value="@Painting.PntName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="PntImg">Image</label>
+        <div>
+            <input asp-for="PntImg" value="@Painting.PntImg" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PntPrice">Price</label>
+        <div>
+            <input asp-for="PntPrice" value="@Painting.PntPrice" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PntOverview">Bio</label>
+        <div>
+            <input asp-for="PntOverview" value="@Painting.PntOverview" />
+        </div>
+
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-dark" value="Edit" style="margin-top:10px" />
+
+        </div>
+    </div>
+</form>
