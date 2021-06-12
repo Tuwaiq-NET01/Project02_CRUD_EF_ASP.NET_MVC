@@ -1,0 +1,46 @@
+﻿@{
+    var Books = (List<BookModel>)ViewData["Books"];
+}
+
+
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Book ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Price</th>
+            <th scope="col">Number of page</th>
+            <th scope="col">Notes</th>
+            
+        <th scope="col">Details</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Books)
+        {
+        <tr>
+            <th scope="row">@book.BookID</th>
+            <td>@book.Title</td>
+            <td>@book.Price SAR</td>
+            <td>@book.NoPage</td>
+            <td>@book.Notes</td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/books/details/@book.BookID"> SHOW </a></button></td>
+            <td><button type="button" class="btn btn-info" asp-action="Edit" asp-route-id="@book.BookID"><a style="color:white" href="/books/Edit/@book.BookID"> EDIT </a></button></td>
+            @*    <td><button type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@book.BookID"><a style="color:white" href="/books/Delete/@book.BookID"> DELETE </a></button></td>*@
+            <td>
+                <form method="post" asp-controller="Books" asp-action="Delete" asp-route-id="@book.BookID">
+                    <input type="submit" value="Drop" class="btn btn-danger" />
+                </form>
+            </td>
+        </tr>
+        }
+
+
+    </tbody>
+</table>
+

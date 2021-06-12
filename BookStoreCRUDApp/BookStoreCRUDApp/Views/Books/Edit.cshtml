@@ -1,0 +1,30 @@
+﻿@model BookModel
+@{
+    var book = (BookModel)ViewData["Book"];
+}
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+    <div class="form-group">
+        <input asp-for="BookID" type="hidden" value="@book.BookID" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Title">Title</label>
+        <input asp-for="Title" value="@book.Title" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Notes">Notes</label>
+        <input asp-for="Notes" value="@book.Notes" />
+    </div>
+    <div class="form-group">
+        <label asp-for="NoPage">No.of page</label>
+        <input asp-for="NoPage" value="@book.NoPage" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" value="@book.Price" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-success" value="Update" />
+    </div>
+</form>

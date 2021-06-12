@@ -6,23 +6,24 @@
 
 # فكرة المشروع 
 
-بناء مشروع ASP.NET MVC على حسب فكرتك ويكون قادر على التعامل مع بيانات حقيقية باستخدام Entity Framework Core وبالإضافة إلى تطبيق وظائف الـCRUD.
+مشروع متجر كتب يعرض مجموعة من أنواع الكتب المختلفة تم بنائه  ASP.NET MVC
+وتم تطبيق مفاهيم  Entity Framework Core 
 
-# متطلبات المشروع   
-- استخدام Entity Framework Core وربطها بقاعدة بيانات
-- تطبيق  جميع وظائف CRUD على المشروع
-    - تطبيق وظيفة Create
-    - تطبيق وظيفة  Read  
-    - تطبيق وظيفة Update 
-    - تطبيق وظيفة Delete 
-# إضافة | Bouns 
-- التعامل مع React في المشروع بأستخدام الـ API
+CRUD
+حيث يضيف كتاب جديد و يستعرض جميع الكتب من قاعدة البيانات ويحدث معلومات الكتب الموجودة في قاعدة البيانات بالإضافه الى حذف الكتب 
 
-
-
- # التسليم:
-
-تاريخ June 13th، الساعة 9:00 am
-قبل كلاس يوم الأحد 
-    
 </div>
+
+
+### Screenshots
+
+
+
+![crud imge](./crud.png) 
+
+> Display all books and information 
+
+![home page](./newbook.png) 
+
+> Add new book to list of books 
+
