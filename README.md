@@ -12,6 +12,10 @@
 
 ![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919733/Screenshot_2021-06-05_215847_sxymna.png)
 
+### All Tracks Cards
+
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534584/Screenshot_2021-06-12_230432_dssvar.png)
+
 ### Add New Track
 ![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534581/Screenshot_2021-06-12_230535_uhs0l4.png)
 
@@ -21,9 +25,6 @@
 ### All Channel
 ![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919734/Screenshot_2021-06-05_215939_bcqwgk.png)
 
-### All Tracks Cards
-
-![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534584/Screenshot_2021-06-12_230432_dssvar.png)
 
 ### One Card
 
