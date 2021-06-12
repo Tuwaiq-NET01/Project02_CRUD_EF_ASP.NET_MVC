@@ -11,6 +11,7 @@ import { AiFillHome } from "react-icons/ai";
 import { AiFillInfoCircle } from "react-icons/ai";
 import About from "./components/About";
 import Games from "./components/Games";
+import GameDetail from "./components/GameDetail";
 
 export default function App() {
   return (
@@ -85,8 +86,9 @@ export default function App() {
             />
 
 
-            <Route exact path="/about" render={() => <About />} />
+            <Route exact path="/about" component={() => <About />} />
 
+            <Route exact path={`/games/:id`} render={(props) => <GameDetail {...props} />} />
 
           </Switch>
         </div>
