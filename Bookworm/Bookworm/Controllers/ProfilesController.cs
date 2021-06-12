@@ -1,5 +1,6 @@
 ﻿using Bookworm.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,10 @@ namespace Bookworm.Controllers
         }
         public IActionResult Index()
         {
-            var DbProfiles = _db.Profiles.ToList();
+            var DbProfiles = _db.Profiles
+                .Include(p => p.User)
+                .ThenInclude(u => u.Reviews)
+                .ToList();
             ViewBag.Profiles = DbProfiles;
             return View();
         }

@@ -4,13 +4,18 @@
     var books = (List<BookModel>)ViewBag.Books;
 }
 
+@*<div class="ui top attached button" tabindex="0"></div>*@
+
 <div class="ui center aligned container">
-    <div class="ui link cards" style="margin-left:85px">
+    <button class="huge ui black button">
+        <a style="color:white" asp-controller="Books" asp-action="Create">Add a New Book</a>
+    </button>
+    <div class="ui link cards" style="margin-left:85px; margin-top:10px;">
         @foreach (var book in books)
         {
-            <div class="card">
+            <div class="card" style="cursor:default">
                 <div class="image">
-                    <img src=@book.Cover>
+                    <img src=@book.Cover href="books/details/@book.Id" style="max-height:437px">
                 </div>
                 <div class="content">
                     <div class="header">@book.Title</div>
@@ -19,10 +24,22 @@
                     </div>
                 </div>
                 <div class="extra content">
-                    <span>
+                    <span >
                         <i class="pencil alternate icon"></i>
                         @book.Reviews.Count Reviews
+
                     </span>
+                    
+                    <div style="margin-top:5px">
+
+                        <a class="mini ui blue button" style="color:white" asp-controller="Books" asp-action="Details" asp-route-id=@book.Id>Read</a>
+
+                        <a class="mini ui olive button" style="color:white" asp-controller="Books" asp-action="Edit" asp-route-id=@book.Id>Edit</a>
+
+                        <form asp-action="delete" asp-route-id=@book.Id method="post" style="display:inline; margin-left:2px">
+                            <button type="submit" class="mini ui red button">x</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         }
