@@ -1,0 +1,48 @@
+﻿@model AnimeModel
+
+@{
+    var Animes = ViewData["Animes"] as IList<AnimeModel>;
+}
+<link rel="stylesheet" href="~/css/Add.css">
+<div class="container">
+    <div class=" text-center mt-5 ">
+        <h1>Add Anime to the list</h1>
+    </div>
+    <div class="row ">
+        <div class="col-lg-7 mx-auto">
+            <div class="card mt-2 mx-auto p-4 bg-light">
+                <div class="card-body bg-light">
+                    <div class="container">
+                        <form asp-action="Add" method="post">
+                            <div class="controls">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label asp-for="Id">ID *</label> <input asp-for="Id" type="text" name="id" value="@(Animes.Count+1)" readonly class="form-control" required="required"> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label asp-for="Title">Title *</label> <input asp-for="Title" type="text" name="Title" class="form-control" placeholder="Please enter the anime title *" required="required"> </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label asp-for="Image" for="form_Image">Image Link</label> <input asp-for="Image" id="form_Image" type="text" name="Image" class="form-control" placeholder="Please enter the Image link "> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group"> <label asp-for="Video" for="form_Video">Video Link </label> <input asp-for="Video" id="form_Video" type="text" name="Video" class="form-control" placeholder="Please enter the Video link "> </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group"> <label asp-for="Story" for="form_Synopsis">Story</label> <textarea asp-for="Story" id="form_Story" name="Story" class="form-control" placeholder="" rows="4"></textarea> </div>
+                                    </div>
+                                    <div class="col-md-12"> <input type="submit" class="btn btn-danger btn-send pt-2 btn-block " value="Add"> </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- /.8 -->
+        </div> <!-- /.row-->
+    </div>
+</div>

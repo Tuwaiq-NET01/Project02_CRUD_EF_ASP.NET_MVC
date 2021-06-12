@@ -1,0 +1,48 @@
+﻿@{
+    var Anime = (AnimeModel)ViewData["Anime"];
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/Details.css">
+</head>
+<body>
+
+    <div class="page-content">
+        <div class="detail">
+            <table>
+                <tr>
+                    <td style="padding-right:50px"><h1 class="detail--title"> @Anime.Title <span class="detail--title--type">TV</span></h1>
+                        <img src=@Anime.Image alt="Poster" class="media-poster">
+                    </td>
+                    <td>
+                        <strong>Synopsis:</strong><span class="detail--main-content--synopsis--content">@Anime.Story</span>
+                    </td>   
+                </tr>
+            </table>
+            
+            <div class="detail--main-content">
+                
+                <div class="detail--main-content--synopsis">
+                    <div></div>
+                    <div class="detail--main-content--genres"></div>
+                </div>
+            </div>
+            <div class="detail--secondary-content">
+                <div class="trailer-container">
+                    <div class="trailer--title">trailer:</div>
+                    <div class="trailer--content" style="overflow: hidden; position: relative;"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" height="443" type="text/html" src=@Anime.Video __idm_id__="217638913"></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a asp-controller="Animes" asp-action="Index">Back to Anime List</a>
+
+</body>
+</html>

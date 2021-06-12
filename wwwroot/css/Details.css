@@ -1,0 +1,130 @@
+body {
+    min-height: 100vh;
+    background: #111;
+    color: #ececec;
+}
+
+div {
+    display: block;
+}
+
+.page-content {
+    padding: 26px 16px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: Roboto,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detail--title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.detail--title--type {
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 14px;
+    color: #9e9e9e;
+    cursor: default;
+    transition: .3s ease-in-out;
+}
+
+
+
+.detail--main-content {
+    flex-direction: column;
+    padding: 24px 16px;
+}
+
+.detail--main-content, .loading {
+    display: flex;
+    align-items: center;
+}
+
+.media-poster {
+    width: 280px;
+    height: 400px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-user-drag: none;
+}
+
+.detail--main-content--synopsis {
+    display: inline-block;
+    max-width: 500px;
+    margin-left: 16px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.detail--main-content--synopsis--content {
+    display: inline-block;
+}
+
+.detail--main-content--genres {
+    margin-top: 4px;
+}
+
+.detail--main-content--genre {
+    margin-left: 6px;
+}
+
+.detail--secondary-content {
+    padding: 0 16px;
+    margin-top: 24px;
+}
+
+.trailer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.trailer--title {
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.trailer--content {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+
+
+iframe {
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+
+

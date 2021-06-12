@@ -1,0 +1,80 @@
+﻿@{
+    var Animes = ViewData["Animes"] as IList<AnimeModel>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+    </header>
+
+    <!-- partial:index.partial.html -->
+    <div class="wrapper">
+
+        <h2><strong>Anime List<span>( @Animes.Count )</span></strong></h2>
+
+        <div class="cards">
+            @{
+                foreach (var item in Animes)
+                {
+                    <figure class="card">
+
+                        <img src="@item.Image" />
+
+                        <div class="descriptions">
+                            <h1>@item.Title</h1>
+                            <p style="font-size:20px;">
+                                Rank : @item.Id <br>
+                                
+                            </p>
+
+
+                        </div>
+
+                        <figcaption>
+
+                            <p>
+                                <form method="post" asp-controller="Animes" asp-action="Delete" asp-route-id="@item.Id">
+                                    <button type="button" class="btn btn-dark"><a style="color:white" asp-controller="Animes" asp-action="Details" asp-route-id="@item.Id"> SHOW </a></button>
+                                    <button type="button" class="btn btn-dark"><a style="color:white" asp-controller="Animes" asp-action="Edit" asp-route-id="@item.Id"> EDIT </a></button>
+                                    <button type="submit" class="btn btn-dark">Delete</button>
+                                </form>
+                            </p>
+
+                        </figcaption>
+
+                    </figure>
+                }
+            }
+        </div>
+
+        <h2><strong>Vidoes</strong></h2>
+
+        <div class="news">
+
+            <figure class="article">
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/ATJYac_dORw?modestbranding=1&showinfo=0&rel=0" width="370" height="230" frameborder="0"></iframe>
+                </div>
+            </figure>
+
+            <figure class="article">
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/M_OauHnAFc8?modestbranding=1&showinfo=0&rel=0" width="370" height="230" frameborder="0"></iframe>
+                </div>
+            </figure>
+
+        </div>
+
+    </div>
+    <!-- partial -->
+
+</body>
+</html>
