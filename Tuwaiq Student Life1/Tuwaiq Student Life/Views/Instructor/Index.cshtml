@@ -1,0 +1,49 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var Instructors = (List<InstructorModel>)ViewData["Instructors"];
+    var Subjects = (List<SubjectModel>)ViewData["Subjects"];
+    SubjectModel mySubject = null;
+}
+
+<h1>Our Exceptional Instructors</h1>
+
+<div class="div-background">
+    <table class="table">
+        <tr>
+            <th>Instructor's Name</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tbody>
+            @foreach (var Instructor in Instructors)
+            {
+                <tr>
+                    <td>@Instructor.FirstName  @Instructor.LastName</td>
+                    <td>@Instructor.Email</td>
+                    @{mySubject = Subjects.Find(S => S.Id == Instructor.SubjectId);}
+                    <td>
+                        @mySubject.SubjectName
+                    <td>
+                        @*                    @foreach (var Subject in Subjects)
+                                                {
+                                                    if (Subject.Id == Instructor.SubjectId)
+                                                    {
+                                                    <td>@Subject.SubjectName</td>
+                            }
+                                            }*@
+                    <td>
+                        <a href="Instructor/Details/?id=@Instructor.Id" class="text-info">Details</a>
+                    </td>
+                    <td>
+                        <a href="Session/Create/?instructor_id=@Instructor.Id&student_id=1" class="text-info">Book a session</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

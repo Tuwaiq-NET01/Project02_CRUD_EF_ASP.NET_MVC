@@ -1,0 +1,41 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var Sessions = (List<SessionModel>)ViewData["Sessions"];
+    var Instructors = (List<InstructorModel>)ViewData["Instructors"];
+    InstructorModel myInstructor = null;
+
+}
+
+<h1>Available Sessions</h1>
+
+<div class="div-background">
+    <table class="table">
+        <tr>
+            <th>Session</th>
+            <th>Duration</th>
+            <th>Location</th>
+            <th>Instructor</th>
+        </tr>
+        <tbody>
+            @foreach (var Session in Sessions)
+            {
+            <tr>
+                <td>@Session.SessionTime</td>
+                <td>@Session.Duration</td>
+                <td>@Session.Location</td>
+                @{myInstructor = Instructors.Find(I => I.Id == Session.InstructorId);}
+                <td>@myInstructor.FirstName  @myInstructor.LastName</td>
+                <td>
+                    <a href="Session/Edit/?id=@Session.Id" class="text-info">Edit</a>
+                </td>
+                <td>
+                    <a href="Session/Delete/?id=@Session.Id" class="text-info">Delete</a>
+                </td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+    </div>
