@@ -1,0 +1,49 @@
+﻿@model StudentModel
+
+<form asp-action="create" method="post" class="from-horizontal">
+
+   
+
+    <div class="from-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" />
+    </div>
+
+    <div class="from-group">
+        <label asp-for="PhoneNum">PhoneNum</label>
+        <input asp-for="PhoneNum" />
+        <span asp-validation-for="PhoneNum"></span>
+    </div>
+
+    <div class="from-group">
+        <label asp-for="DateOfBirth">DateOfBirth</label>
+        <input asp-for="DateOfBirth" />
+        <span asp-validation-for="DateOfBirth"></span>
+    </div>
+
+    <div class="from-group">
+        <label asp-for="Major">Major</label>
+        <input asp-for="Major" />
+        <span asp-validation-for="Major"></span>
+    </div>
+
+    <div class="from-group">
+        <label asp-for="CollegeId">CollegeId</label>
+        <input asp-for="CollegeId" />
+        <span asp-validation-for="CollegeId"></span>
+    </div>
+
+    <div class="from-group">
+        <label asp-for="InstructorId">InstructorId</label>
+        <input asp-for="InstructorId" />
+        <span asp-validation-for="InstructorId"></span>
+    </div>
+
+    <div class="from-group">
+
+        <input type="submit" class="btn-btn-primary" value="Submit" />
+    </div>
+
+
+
+</form>

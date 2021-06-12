@@ -1,0 +1,42 @@
+﻿@{
+    var Students = (List<StudentModel>)ViewData["Students"];
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">PhoneNum</th>
+            <th scope="col">DateOfBirth</th>
+            <th scope="col">Major</th>
+            <th scope="col">CollegeId</th>
+            <th scope="col">InstructorId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Student in Students)
+        {
+        <tr>
+            <th scope="row">@Student.Id</th>
+            <td>@Student.Name</td>
+            <td>@Student.PhoneNum</td>
+            <td>@Student.DateOfBirth </td>
+            <td>@Student.Major </td>
+            <td>@Student.CollegeId </td>
+            <td>@Student.Instructor </td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Students/details/@Student.Id"> SHOW </a></button></td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Students/edit/@Student.Id"> Edit </a></button></td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@Student.Id" method="post">
+                    <input type="submit" value="Destroy" class="btn btn-danger" />
+                </form>
+            </td>
+
+
+        </tr>
+        }
+
+
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+﻿@{
+    var Students = (StudentModel)ViewData["Students"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Name: @Students.Name</h5>
+        <p class="card-text">PhoneNum: @Students.PhoneNum</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Id: @Students.Id</li>
+        <li class="list-group-item">DateOfBirth: @Students.DateOfBirth</li>
+        <li class="list-group-item">Major: @Students.Major</li>
+        <li class="list-group-item">CollegeId: @Students.CollegeId</li>
+        <li class="list-group-item">InstructorId: @Students.InstructorId</li>
+        
+
+    </ul>
+</div>
+
+
+<a asp-controller="Students" asp-action="Index">Back to Students</a>
