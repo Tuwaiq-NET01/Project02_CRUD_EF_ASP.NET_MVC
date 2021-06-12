@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project02_CRUD_EF_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
+      "projectUniqueName": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project03_CRUD_With_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
       "projectName": "Tuwaiq Student Life",
-      "projectPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project02_CRUD_EF_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
+      "projectPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project03_CRUD_With_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
       "packagesPath": "C:\\Users\\96655\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project02_CRUD_EF_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\obj\\",
+      "outputPath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project03_CRUD_With_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\96655\\AppData\\Roaming\\NuGet\\NuGet.Config",

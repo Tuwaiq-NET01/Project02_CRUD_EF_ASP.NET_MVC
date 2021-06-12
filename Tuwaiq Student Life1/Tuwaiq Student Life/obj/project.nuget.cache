@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7UwW55mtNrmB1Xq7i9rywgtztL19Oidj18lIa0dKVm8E2aG0p/ECbUbKXGgJRMzJXHoWDUaaB7ceEkHi+/n0Q==",
+  "dgSpecHash": "zUVzvcS1y59MJDFm6QlzKMOsI1jbG25b6AWL05RyBV/YeJze8/eD1fsIk9Ghgt/xlpoSum1O3V8AErn5mOVx4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project02_CRUD_EF_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
+  "projectFilePath": "C:\\Users\\96655\\OneDrive\\Desktop\\Tuwaiq\\ASP.NET\\Project03_CRUD_With_ASP.NET_MVC\\Tuwaiq Student Life1\\Tuwaiq Student Life\\Tuwaiq Student Life.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\96655\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\96655\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
