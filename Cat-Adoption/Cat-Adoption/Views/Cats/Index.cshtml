@@ -1,0 +1,18 @@
+﻿@{ 
+    var cat = (List<CatModel>)ViewData["Cats"];
+}
+<div class="container ml-5 pl-5">
+    <div class="row">
+        @foreach (var c in cat)
+        {
+        <div class="card bg-light box-shadow mr-5 mt-2" style="width: 18rem;">
+            <div class="card-body">
+                <img class="card-img-top " src="@c.image" style=" height: 10rem;">
+                <h5 class="card-title">@c.name</h5>
+                @*<p class="card-text"> @c.description''</p>*@
+                <a href="/cats/details/@c.id"><button type="button" class="btn btn-info" >More Info </button></a>
+            </div>
+        </div>}
+    </div>
+</div>
+
