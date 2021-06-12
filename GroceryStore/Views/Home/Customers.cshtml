@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Customers";
+    var Customers = (List<Customer>)ViewData["Customers"];
+
+}
+
+<h3>Customers</h3>
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <td>Id </td>
+            <td> First Name</td>
+            <td> Last Name</td>
+            <td> Email</td>
+            <td> Phone</td>
+            <td> Address</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var customer in Customers)
+        {
+        <tr>
+            <td>@customer.CustomerId</td>
+            <td>@customer.FirstName</td>
+            <td>@customer.LastName</td>
+            <td>@customer.Email</td>
+            <td>@customer.Phone</td>
+            <td>@customer.Address</td>
+
+
+        </tr>
+
+        }
+    </tbody>
+
+</table>

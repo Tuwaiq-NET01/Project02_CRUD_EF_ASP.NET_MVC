@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Products";
+    var Products = (List<Product>)ViewData["Products"];
+
+}
+
+
+
+
+<h3>All Products</h3>
+<div class="card-columns">
+
+
+    @foreach (var Product in Products)
+    {
+        <div class="card text-center">
+            <img src="@Product.Image" class="card-img-top " style="max-width:200px" alt="@Product.Name">
+            <div class="card-body">
+                <h5 class="card-title">@Product.Name</h5>
+                <h5 class="card-title">@Product.Price</h5>
+
+
+
+            </div>
+        </div>
+
+    }
+
+
+
+</div>

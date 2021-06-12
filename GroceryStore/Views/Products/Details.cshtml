@@ -1,0 +1,24 @@
+﻿@{
+
+    var Product = (Product)ViewData["Product"];
+}
+
+
+<div class="card-columns">
+
+        <div class="card text-center">
+            <img src="@Product.Image" class="card-img-top " style="max-width:200px" alt="@Product.Name">
+            <div class="card-body">
+                <h5 class="card-title">Id : @Product.ProductId</h5>
+                <h5 class="card-title">Name : @Product.Name</h5>
+                <h5 class="card-title">Price : @Product.Price SAR </h5>
+
+
+
+            </div>
+        </div>
+
+</div>
+
+
+<a asp-controller="Products" asp-action="Index">Back to products</a>
