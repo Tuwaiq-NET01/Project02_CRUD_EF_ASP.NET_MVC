@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import {BsFillStarFill} from 'react-icons/bs';
 import DisplayGames from './DisplayGames';
+import GameForm from './GameForm';
 
 
 export default function Games() {
@@ -31,9 +32,14 @@ useEffect(() => {
 }, [])
 
 
+    const setGame = (game) => {
+        setGameName(game.gameName)
+        setGameImage(game.image)
+        setGameDesc(game.description)
+        setRating(game.rating)
+    }
 
-
-const addGame  = (e) => {
+const addGame  = () => {
     // e.preventDefault();
     let game = {
         gameName : gameName,
@@ -87,9 +93,9 @@ const addGame  = (e) => {
       </div>
       <div class="modal-body">
 
+<GameForm setGame={setGame} mode="new" />
 
-
-      <form>
+      {/* <form>
 
 
 <div class="mb-3">
@@ -138,13 +144,13 @@ const addGame  = (e) => {
 
 
 
-</form>
+</form> */}
 
 
 </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" onClick={(e) => addGame(e)}>ADD GAME</button>
+        <button type="submit" class="btn btn-primary" data-bs-dismiss="modal" onClick={() => addGame()}>ADD GAME</button>
       </div>
     </div>
 

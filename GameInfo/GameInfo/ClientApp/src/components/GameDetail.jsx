@@ -13,6 +13,11 @@ export default function GameDetail(props) {
 
   const [editMode, setEditMode] = useState(false)
 
+  const editStatus = () => {
+      setEditMode(!editMode)
+  }
+
+
   useEffect(() => {
     axios
       .get(`https://localhost:44384/api/games/${props.match.params.id}`)
@@ -57,7 +62,7 @@ export default function GameDetail(props) {
     {editMode ? 
     <div> 
 
-<GameForm game={game} editGame={editGame}/>
+<GameForm game={game} editGame={editGame} mode="edit" editStatus={editStatus}/>
     
     
 {/* <div className="d-flex justify-content-end">
@@ -90,7 +95,7 @@ export default function GameDetail(props) {
 <button className="btn btn-secondary me-2" onClick={props.history.goBack}>
     GO BACK
 </button>
-<button className="btn btn-warning" onClick={() => setEditMode(true)}>
+<button className="btn btn-warning" onClick={editStatus}>
     EDIT
 </button>
 </div>

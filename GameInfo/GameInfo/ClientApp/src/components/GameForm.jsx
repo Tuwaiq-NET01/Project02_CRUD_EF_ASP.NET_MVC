@@ -22,10 +22,32 @@ export default function GameForm(props) {
     
 
     useEffect(() => {
-        setGameName(props.game.gameName)
-        setGameImage(props.game.image)
-        setGameDesc(props.game.description)
+        if(props.mode == "edit"){
+            setGameName(props.game.gameName)
+            setGameImage(props.game.image)
+            setGameDesc(props.game.description)
+        }
     }, [])
+
+
+
+    useEffect(() => {
+        if(props.mode == "new"){
+            let game = {
+                gameName : gameName,
+                image : gameImage,
+                description: gameDesc,
+                rating: rating
+            }
+console.log("channnggg");
+
+props.setGame(game)
+        }
+
+    }, [gameName,
+        gameImage,
+        gameDesc,
+        rating])
 
     return (
         <div>
@@ -82,14 +104,14 @@ export default function GameForm(props) {
 
 </form>
 
-    
+{ props.mode=="edit" ?     
 <div className="d-flex justify-content-end">
 
 <button type='submit' className="btn btn-primary me-2" onClick={editGame}>
     UPDATE!
 </button>
-{/* <button className="btn btn-danger" onClick={() => setEditMode(false)}> CANCEL </button> */}
-</div>
+<button className="btn btn-danger" onClick={props.editStatus}> CANCEL </button>
+</div> : null }
 
 
         </div>
