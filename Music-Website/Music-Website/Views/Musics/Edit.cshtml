@@ -1,0 +1,63 @@
+﻿@model MusicModel
+@{
+    var Music = (MusicModel)ViewData["Music"];
+}
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img src="https://media2.giphy.com/media/9P8T1ItfCI3UpIht9T/giphy.gif" width="550px" height="550px" />
+        </div>
+        <div class="col">
+            <form asp-action="Edit" method="post" class="form-horizontal">
+
+                <div class="form-group">
+                    <input type="hidden" asp-for="Id" value="@Music.Id" />
+                </div>
+
+
+                <div class="mb-3">
+                    <label asp-for="title" class="form-label">Title</label>
+                    <input asp-for="title" value="@Music.title" class="form-control" placeholder="title">
+                </div>
+
+
+                <div class="mb-3">
+                    <label asp-for="audio" class="form-label">Audio</label>
+                    <input asp-for="audio" value="@Music.audio" class="form-control" placeholder="audio">
+                </div>
+
+
+                <div class="mb-3">
+                    <label asp-for="Music_image" class="form-label">Image</label>
+                    <input asp-for="Music_image" value="@Music.Music_image" class="form-control" placeholder="Music Image">
+                </div>
+
+
+                <div class="mb-3">
+                    <label asp-for="description" class="form-label">Description</label>
+                    <textarea asp-for="description"   class="form-control" placeholder="@Music.description" rows="3" ></textarea >
+                    
+                </div>
+
+
+                <div class="form-group">
+                    <input type="hidden" asp-for="ProfileId" value="@Music.ProfileId" />
+                </div>
+
+
+
+
+
+                <div class="from-group">
+                    <input type="submit" class="btn btn-primary" value="Update" />
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>

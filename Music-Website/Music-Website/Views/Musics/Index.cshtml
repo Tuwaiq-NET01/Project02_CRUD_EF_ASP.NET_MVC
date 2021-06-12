@@ -1,0 +1,136 @@
+﻿@{
+    var Musics = (List<MusicModel>)ViewData["Musics"];
+    var Rating = (List<RateModel>)ViewData["Rating"];
+    var id = (int)ViewData["id"];
+}
+
+<div  style="position: fixed;left:7px; top:90px;background: white; ">
+  <a href="/Musics/Create"><button type="button" class="btn btn-outline-success">Add New Track <i class="fas fa-plus"></i></button></a>  
+</div>
+
+
+@foreach (var Music in Musics)
+{
+    if (id == -1)
+    {
+
+        <div class="container text-center card1" style="height:260px;margin-top:40px">
+
+            <div class="row">
+
+                <div class="col-4">
+                    <img src=@Music.Music_image class="container_img" />
+                </div>
+                <div class="col-8" style="text-align:left;margin-top:50px">
+                    <a class="link1" href="/Musics/Details/@Music.Id">
+                        <h1 style="color: #78a09c">@Music.title</h1>
+                    </a>
+
+                    @foreach (var rate in Rating)
+                    {
+                        if (rate.MusicId == Music.Id)
+                        {
+
+                            @for (var i = 0; i < 5; i++)
+                            {
+                                if (i < rate.score)
+                                {
+                                    <i class="fas fa-star" style="color:orange"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star" style="color:orange"></i>
+                                }
+                            }
+
+                        }
+                    }
+                    <br />
+                    <div class="container">
+                        <div class="row">
+                            <div class="col" >
+                                <a asp-controller="Musics" asp-action="Edit" asp-route-id="@Music.Id" ><i class="fas fa-edit" style="font-size:25px"></i></a>
+
+                            </div>
+                            <div class="col">
+                                <form asp-action="Delete" asp-route-id="@Music.Id" method="post">
+                                    
+                                    <input style="margin-left:-300px;margin-top:-2px;color:red"  type="image" src="https://lh3.googleusercontent.com/proxy/avPph88w0-KfEtX9QX-y_JzxhHampZeOHPZSM6siB6A-HUkzvI0Nha5gINQaTwDoWUlawszldijN1GzXARykxCZOX8NObjz9HdVZAOFSZg" alt="Submit" width="27" height="27"/>
+
+
+                                </form>
+                            </div>
+                            </div>
+                        </div>
+                            
+                            <audio controls style=" width: 655px;margin-top:20px">
+
+                                <source src=@Music.audio type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+
+
+                        </div>
+                    </div>
+                </div>
+    }
+    else if (Music.ProfileId == id)
+    {
+        <div class="container text-center card1" style="height: 260px;margin-top: 40px">
+
+            <div class="row">
+
+                <div class="col-4">
+                    <img src=@Music.Music_image class="container_img" />
+                </div>
+                <div class="col-8" style="text-align:left;margin-top:50px">
+                    <a class="link1" href="/Musics/Details/@Music.Id">
+                        <h1 style="color: #78a09c">@Music.title</h1>
+                    </a>
+                    @foreach (var rate in Rating)
+                    {
+                        if (rate.MusicId == Music.Id)
+                        {
+
+                            @for (var i = 0; i < 5; i++)
+                            {
+                                if (i < rate.score)
+                                {
+                                    <i class="fas fa-star" style="color:orange"></i>
+                                }
+                                else
+                                {
+                                    <i class="far fa-star" style="color:orange"></i>
+                                }
+                            }
+
+                        }
+                    }
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a asp-controller="Musics" asp-action="Edit" asp-route-id="@Music.Id"><button class="btn btn-outline-info">Edit</button></a>
+
+                        </div>
+                        <div class="col">
+                            <form asp-action="Delete" asp-route-id="@Music.Id" method="post">
+                                <input type="submit" value="Delete" class="btn btn-outline-danger " />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                    <audio controls style=" width: 655px;margin-top:20px">
+
+                        <source src=@Music.audio type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+
+
+                </div>
+            </div>
+        </div>
+
+    }
+
+}
+

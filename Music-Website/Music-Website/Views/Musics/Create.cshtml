@@ -1,0 +1,57 @@
+﻿@model MusicModel
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://cdn130.picsart.com/316021549506201.gif" width="500px" height="550px"/>
+            </div>
+            <div class="col">
+                <form asp-action="Create" method="post" class="form-horizontal">
+
+                   
+
+                    <div class="mb-3">
+                        <label asp-for="title" class="form-label">Title</label>
+                        <input asp-for="title" class="form-control" placeholder="title">
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="audio" class="form-label">Audio</label>
+                        <input asp-for="audio" class="form-control" placeholder="audio">
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="Music_image" class="form-label">Image</label>
+                        <input asp-for="Music_image" class="form-control" placeholder="Music Image">
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="description" class="form-label">Description</label>
+                        <textarea asp-for="description" class="form-control" placeholder="Description" rows="3"></textarea>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="ProfileId" class="form-label">Profile Id</label>
+                        <input asp-for="ProfileId" class="form-control" placeholder="Profile Id">
+                    </div>
+
+
+
+                    
+
+                    <div class="from-group">
+                        <input type="submit" class="btn btn-primary" value="Submit" />
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        </div>
+
+     

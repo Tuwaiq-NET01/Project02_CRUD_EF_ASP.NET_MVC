@@ -1,0 +1,58 @@
+﻿@{
+
+    var Musics = (List<MusicModel>)ViewData["Musics"];
+    var id = (int)ViewData["id"];
+    var Rating = (List<RateModel>)ViewData["Rating"];
+
+}
+
+@foreach (var Music in Musics)
+{
+    if (id == Music.Id)
+    {
+
+<div class="container overflow-hidden">
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3  ">
+                <img src=@Music.Music_image />
+            </div>
+        </div>
+        <div class="col">
+            <div class="p-3 " style="margin-top:50px">
+                <h1 style="color: #78a09c">@Music.title</h1>
+                @foreach (var rate in Rating)
+                {
+                    if (rate.MusicId == id)
+                    {
+
+                        @for (var i = 0; i < 5; i++)
+                        {
+                            if (i < rate.score)
+                            {
+                                <i class="fas fa-star" style="color:orange"></i>
+                            }
+                            else
+                            {
+                                <i class="far fa-star" style="color:orange"></i>
+                            }
+                        }
+
+                    }
+                }
+                <audio controls style=" width: 450px;margin-top:20px">
+
+                    <source src=@Music.audio type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <br /><br /><br />
+                <h5>Description : </h5>
+                <p>@Music.description</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+    }
+}

@@ -1,0 +1,24 @@
+﻿@{
+    var Profiles = (List<ProfileModel>)ViewData["Profiles"];
+
+
+}
+
+<div class="container ">
+    <div class="row">
+        @foreach (var Profile in Profiles)
+        {
+
+
+
+        <a href="/Musics/index/@Profile.Id">
+            <div class="card">
+                <img src=@Profile.Background_Image />
+                <span>@Profile.Name</span>
+            </div>
+        </a>
+
+        }
+
+    </div>
+</div>

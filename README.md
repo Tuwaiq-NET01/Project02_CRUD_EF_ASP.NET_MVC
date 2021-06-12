@@ -1,28 +1,36 @@
-# Project03_CRUD_With_ASP.NET_MVC
+## Music Website
 
-<div dir="rtl" align="right">
-
-
-
-# فكرة المشروع 
-
-بناء مشروع ASP.NET MVC على حسب فكرتك ويكون قادر على التعامل مع بيانات حقيقية باستخدام Entity Framework Core وبالإضافة إلى تطبيق وظائف الـCRUD.
-
-# متطلبات المشروع   
-- استخدام Entity Framework Core وربطها بقاعدة بيانات
-- تطبيق  جميع وظائف CRUD على المشروع
-    - تطبيق وظيفة Create
-    - تطبيق وظيفة  Read  
-    - تطبيق وظيفة Update 
-    - تطبيق وظيفة Delete 
-# إضافة | Bouns 
-- التعامل مع React في المشروع بأستخدام الـ API
+## Technology used :
+* ASP.NET MVC 
+* Bootstrap 
+* Microsoft SQL
 
 
+## Images :
 
- # التسليم:
+## Home Page
 
-تاريخ June 13th، الساعة 9:00 am
-قبل كلاس يوم الأحد 
-    
-</div>
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919733/Screenshot_2021-06-05_215847_sxymna.png)
+
+### Add New Track
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534581/Screenshot_2021-06-12_230535_uhs0l4.png)
+
+### Edit
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534581/Screenshot_2021-06-12_230511_mjbeix.png)
+
+### All Channel
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919734/Screenshot_2021-06-05_215939_bcqwgk.png)
+
+### All Tracks Cards
+
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1623534584/Screenshot_2021-06-12_230432_dssvar.png)
+
+### One Card
+
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919731/Screenshot_2021-06-05_220011_se3spf.png)
+
+### Error Page
+
+![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919730/Screenshot_2021-06-05_220040_fbe5op.png)
+
+
