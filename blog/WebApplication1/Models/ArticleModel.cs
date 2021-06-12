@@ -15,6 +15,8 @@ namespace WebApplication1.Models
         public string Title { get; set; }
         [Required]
         public string HTMLContent { get; set; }
+        [Required]
+        public string Image { get; set; }
         //user 1:m articles
         //nav
         public UserModel User { get; set; }

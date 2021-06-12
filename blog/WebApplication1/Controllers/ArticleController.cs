@@ -32,7 +32,7 @@ namespace WebApplication1.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create([Bind("Id", "UserId", "Title","HTMLContent","Date")]ArticleModel article)
+        public IActionResult Create([Bind("Id", "UserId", "Title","HTMLContent","Date", "Image")]ArticleModel article)
         {
             if (ModelState.IsValid)
             {
@@ -50,7 +50,7 @@ namespace WebApplication1.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Edit([Bind("Id", "UserId", "Title", "HTMLContent", "Date")] ArticleModel article)
+        public IActionResult Edit([Bind("Id", "UserId", "Title", "HTMLContent", "Date", "Image")] ArticleModel article)
         {
                 article.UserId = 3;
                 article.Date = DateTime.Now;

@@ -5802,11 +5802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\blog\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\Project03_CRUD_With_ASP.NET_MVC\\blog\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\blog\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\Project03_CRUD_With_ASP.NET_MVC\\blog\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\SAFCSP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\blog\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\SAFCSP\\Desktop\\hanan\\projects\\Project03_CRUD_With_ASP.NET_MVC\\blog\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SAFCSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
