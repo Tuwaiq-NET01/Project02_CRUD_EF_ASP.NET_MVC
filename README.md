@@ -5,24 +5,16 @@
 
 
 # فكرة المشروع 
-
-بناء مشروع ASP.NET MVC على حسب فكرتك ويكون قادر على التعامل مع بيانات حقيقية باستخدام Entity Framework Core وبالإضافة إلى تطبيق وظائف الـCRUD.
-
+Events hall management system with CRUD features. Implemented in ASP.NET MVC Architecture.
+    
 # متطلبات المشروع   
 - استخدام Entity Framework Core وربطها بقاعدة بيانات
 - تطبيق  جميع وظائف CRUD على المشروع
-    - تطبيق وظيفة Create
-    - تطبيق وظيفة  Read  
-    - تطبيق وظيفة Update 
-    - تطبيق وظيفة Delete 
-# إضافة | Bouns 
-- التعامل مع React في المشروع بأستخدام الـ API
-
-
-
- # التسليم:
-
-تاريخ June 13th، الساعة 9:00 am
-قبل كلاس يوم الأحد 
+    - ✔تطبيق وظيفة Create
+    - ✔تطبيق وظيفة  Read  
+    - ✔تطبيق وظيفة Update 
+    - ✔تطبيق وظيفة Delete
     
+ # Demo     
+![Preview](https://media1.giphy.com/media/5MKvGJVopTLQ7Pxevg/giphy.gif?cid=790b761197637a18c4337464981f58903dcf8c4f0481978a&rid=giphy.gif&ct=g)
 </div>
