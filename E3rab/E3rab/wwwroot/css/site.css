@@ -1,0 +1,171 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+* {
+  font-family: 'Amiri' !important;
+  
+}
+th{
+  font-family: 'Amiri' !important;
+}
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+nav{
+  border-radius: 0px;
+  background: #4d4242;
+  box-shadow:  27px 27px 39px #453b3b,
+  -27px -27px 39px #554949;
+  color: white; 
+}
+
+
+body{
+  background-color: #4d4242 !important;
+}
+
+#welcome{
+  box-shadow: #1b6ec2 3px 4px;
+}
+
+.myButon {
+  border-radius: 17px;
+  background: #4d4242;
+  box-shadow:  5px 5px 10px #272222,
+  -5px -5px 10px #736262;
+  width: 150px;
+  color: white;
+  border: 0px ;
+  height: 60px ;
+  font-size: 1.8em;
+}
+
+.cards-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width:100vw ;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+ 
+}
+  
+.mySmallButon{
+  border-radius: 17px;
+  background: #4d4242;
+  box-shadow:  5px 5px 10px #272222,
+  -5px -5px 10px #736262;
+  width: 70px;
+  color: white;
+  border: 0px ;
+  height: 30px ;
+  font-size: 1.2em;
+  margin-left:1em;
+}
+
+.mySmallButon:active{
+  border: 0px;
+  outline: none;
+}
+.card {
+  border-radius: 17px;
+  background: #4d4242;
+  box-shadow: 5px 5px 10px #272222,
+  -5px -5px 10px #736262;
+  border:0px;
+  margin-top:2em;
+}
+
+.input-text{
+  border-radius: 17px;
+  background: #4d4242;
+  box-shadow: 5px 5px 10px #272222,
+  -5px -5px 10px #736262;
+  border: 0px ;
+  height: 3em;
+  padding-left: 4em;
+  padding-right: 1em;
+  margin-right:8px;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.input-text:focus{
+  border: 0px;
+  outline: none;
+  padding-right: 1em;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+*:focus {
+  outline: 0 !important;
+}

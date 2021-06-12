@@ -1,0 +1,22 @@
+﻿@{
+    var Sentence = (Sentence) ViewData["Sentence"];
+}
+
+
+<div class="card" dir="rtl">
+    <h5 class="card-header text-center text-white"> الجملة رقم @Sentence.Id </h5>
+    <div class="card-body">
+        <h5 class="card-title text-center text-white"> @Sentence.Sentence1</h5>
+        <h3 class="text-center text-white " style="opacity: 0.4"> إعرابها </h3>
+        <h3 class="text-center text-white " style="opacity: 0.4"> || </h3>
+        <h5 class="card-title text-center text-white"> @Sentence.E3rab</h5>
+        <div class="button-container">
+            <a asp-controller="Sentences" asp-action="Edit" asp-route-id="@Sentence.Id">
+                <button class="mySmallButon"> تعديل</button>
+            </a>
+            <a asp-controller="Sentences" asp-action="Index"><button class="mySmallButon"> الرجوع</button></a>
+        </div>
+    </div>
+</div>
+
+

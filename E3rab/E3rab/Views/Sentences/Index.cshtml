@@ -1,0 +1,36 @@
+﻿@{
+    var Sentences = (List<Sentence>) ViewData["Sentences"];
+}
+
+<div dir="rtl">
+    <table class="table">
+
+        <div dir="rtl">
+            @foreach (var Sentence in Sentences)
+            {
+                <div class="card" dir="rtl">
+                    <h5 class="card-header text-center text-white"> الجملة رقم @Sentence.Id </h5>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-white"> @Sentence.Sentence1</h5>
+                        <div class="button-container">
+                            <button type="button" class="mySmallButon">
+                                <a style="color:white" href="/Sentences/details/@Sentence.Id"> عرض </a>
+                            </button>
+                            <a asp-controller="Sentences" asp-action="Edit" asp-route-id="@Sentence.Id">
+                                <button class="mySmallButon"> تعديل</button>
+                            </a>
+
+                            <form asp-action="Delete" asp-route-id="@Sentence.Id" method="post">
+                                <a asp-controller="Sentences" asp-action="Delete" asp-route-id="@Sentence.Id">
+                                    <button class="mySmallButon " type="submit" value="destroy"> حذف</button>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+
+    </table>
+</div>

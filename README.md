@@ -3,26 +3,31 @@
 <div dir="rtl" align="right">
 
 
+# موقع أعرب 
 
-# فكرة المشروع 
+## موقع لمشاركة الجمل مع إعرابها  
 
-بناء مشروع ASP.NET MVC على حسب فكرتك ويكون قادر على التعامل مع بيانات حقيقية باستخدام Entity Framework Core وبالإضافة إلى تطبيق وظائف الـCRUD.
+# نُزهه مصورة على الموقع 
+
+![alt text](https://github.com/aldundur-Mansour/Project03_CRUD_With_ASP.NET_MVC/blob/main/DemoP03.gif?raw=true)
+
+
+
+
+
+
 
 # متطلبات المشروع   
 - استخدام Entity Framework Core وربطها بقاعدة بيانات
 - تطبيق  جميع وظائف CRUD على المشروع
-    - تطبيق وظيفة Create
-    - تطبيق وظيفة  Read  
-    - تطبيق وظيفة Update 
-    - تطبيق وظيفة Delete 
-# إضافة | Bouns 
-- التعامل مع React في المشروع بأستخدام الـ API
+  
+    - [x]    تطبيق وظيفة Create
+    - [x]    تطبيق وظيفة  Read  
+    - [x]    تطبيق وظيفة Update 
+    - [x]    تطبيق وظيفة Delete 
 
 
 
- # التسليم:
 
-تاريخ June 13th، الساعة 9:00 am
-قبل كلاس يوم الأحد 
     
 </div>

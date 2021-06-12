@@ -1,0 +1,34 @@
+﻿@model Sentence
+
+
+@{
+    var Sentence = (Sentence) ViewData["Sentence"]; 
+}
+<form asp-action="Edit" method="post" class="form-horizontal card p-5 text-center" dir="rtl">
+
+    <div class="form-group">
+        <label asp-for="Sentence1" class="text-white h3 ml-3"> الجُملة </label>
+        <input asp-for="Sentence1" value="@Sentence.Sentence1" class="input-text" style=" margin-right:24px;"/>
+        <span asp-validation-for="Sentence1" class="text-white" ></span>
+
+    </div>
+    <div class="form-group">
+    <label asp-for="Id" class="text-white h3 ml-3" > المعرف </label>
+        <input asp-for="Id" value="@Sentence.Id" disabled  class="input-text" />
+    </div>
+    <div class="form-group">
+        <label asp-for="E3rab" class="text-white h3 ml-3" >إعرابها</label>
+        <input asp-for="E3rab" value="@Sentence.E3rab"  class="input-text"/>
+                <span asp-validation-for="E3rab" class="text-white" ></span>
+
+    </div>
+   ]
+    <div class="form-group">
+        <button type="submit" class="myButon " value = "Submit"> تسليم </button>
+        <a asp-controller="Sentences" asp-action="Details" asp-route-id="@Sentence.Id">
+            <button class="myButon mr-5"> إلغاء</button>
+        </a>
+
+    </div>
+
+</form>

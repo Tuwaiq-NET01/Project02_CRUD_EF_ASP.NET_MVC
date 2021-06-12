@@ -1,0 +1,29 @@
+﻿@model Sentence
+
+
+<form asp-action="Create" method="post" class="form-horizontal card p-5 text-center" dir="rtl">
+
+    <div class="form-group">
+        <label asp-for="Sentence1" class="text-white h3 ml-3"> الجُملة </label>
+        <input asp-for="Sentence1" class="input-text" style=" margin-right:24px;"/>
+        <span asp-validation-for="Sentence1" class="text-white"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Id" class="text-white h3 ml-3"> المُعرف </label>
+        <input asp-for="Id" disabled class="input-text" placeholder="يُصنع بشكل تلقائي"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="E3rab" class="text-white h3 ml-3">إعرابها</label>
+        <input asp-for="E3rab" class="input-text"/>
+        <span asp-validation-for="E3rab" class="text-white"></span>
+
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="myButon " value="Submit"> تسليم </button>
+
+    </div>
+
+
+</form>
