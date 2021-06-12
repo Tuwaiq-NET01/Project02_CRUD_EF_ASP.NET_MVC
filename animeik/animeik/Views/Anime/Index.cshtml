@@ -1,0 +1,192 @@
+﻿@model Anime
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    var anime = (List<Anime>) ViewData["list"];
+    var isuser = ViewData["user"] ?? false;
+}
+
+
+<body>
+@if (!(bool) isuser)
+{
+    <form class="example" style="width: 60em ; padding: 1em">
+        <input style="background:#EFF6EE" type="text" placeholder="Search.." name="search" id="searchname">
+        <button id="searchbtn" style="background-color: #F02D3A;width: 5em" type="button">
+            <i class="fa fa-search"></i>
+        </button>
+    </form>
+}
+
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Add Anime</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Anime</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label asp-for="id" class="col-form-label">ID:</label>
+                        <input  type="text" class="form-control" asp-for="id">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="title" class="col-form-label">Title:</label>
+                        <input  type="text" class="form-control" asp-for="title">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="url" class="col-form-label">Url:</label>
+                        <input  type="text" class="form-control" asp-for="url">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="image_url" class="col-form-label">Image_url:</label>
+                        <input  type="text" class="form-control" asp-for="image_url">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="type" class="col-form-label">Type:</label>
+                        <input  type="text" class="form-control" asp-for="type">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="episodes" class="col-form-label">Episodes:</label>
+                        <input  type="text" class="form-control" asp-for="episodes">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="start_date" class="col-form-label">start date:</label>
+                        <input  type="text" class="form-control" asp-for="start_date">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="end_date" class="col-form-label">end date:</label>
+                        <input  type="text" class="form-control" asp-for="end_date">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="score" class="col-form-label">Score:</label>
+                        <input  type="text" class="form-control" asp-for="score">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Categoryid" class="col-form-label">Category id:</label>
+                        <input  type="text" class="form-control" asp-for="Categoryid">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-primary" value="Submit anime"/>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal fade" id="Editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Anime</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Edit" method="post">
+                    <div class="form-group">
+                        <label asp-for="id" class="col-form-label">ID:</label>
+                        <input id="idd" type="text" class="form-control" asp-for="id">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="title" class="col-form-label">Title:</label>
+                        <input id="tit" type="text" class="form-control" asp-for="title">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="url" class="col-form-label">Url:</label>
+                        <input id="urll" type="text" class="form-control" asp-for="url">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="image_url" class="col-form-label">Image_url:</label>
+                        <input id="img" type="text" class="form-control" asp-for="image_url">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="type" class="col-form-label">Type:</label>
+                        <input id="typee" type="text" class="form-control" asp-for="type">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="episodes" class="col-form-label">Episodes:</label>
+                        <input id="ep" type="text" class="form-control" asp-for="episodes">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="start_date" class="col-form-label">start date:</label>
+                        <input id="sd" type="text" class="form-control" asp-for="start_date">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="end_date" class="col-form-label">end date:</label>
+                        <input id="ed" type="text" class="form-control" asp-for="end_date">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="score" class="col-form-label">Score:</label>
+                        <input id="scoree" type="text" class="form-control" asp-for="score">
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Categoryid" class="col-form-label">Category id:</label>
+                        <input id="cat" type="text" class="form-control" asp-for="Categoryid">
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-primary" value="Edit anime"/>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row d-flex container ">
+    @foreach (Anime a in anime)
+    {
+        <div class="card-deck" style=" width: 20em; padding: 1em">
+            <div style="background-color:#EFF6EE" class="card">
+                <img class="card-img-top" src="@a.image_url" height="200" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@a.title</h5>
+                    <p class="card-text">
+                        <small class="text-muted">Score: @a.score</small>
+                    </p>
+                    <a href="https://localhost:5001/anime/details/@a.id" class="btn btn-primary">Details</a>
+                    @if (!(bool) isuser)
+                    {
+                        <button onclick="addfav(@a.id)" data-toggle="modal" data-target=".bd-example-modal-sm" data-dismiss="alert" class="btn btn-outline-success">Favorite</button>
+                        <button type="button" onclick="modalhandling(@a.id)" class="btn btn-primary" data-toggle="modal" data-target="#Editmodal">Edit</button>
+                        <form method="post" asp-controller="Anime" asp-action="Delete" asp-route-id="@a.id">
+                            <input type="submit" value="Delete" class="btn btn-danger"/>
+                        </form>
+                    }
+                    else
+                    {
+                        <button onclick="removefav(@a.id)" data-toggle="modal" data-target=".bd-example-modal-sm" data-dismiss="alert" class="btn btn-danger">Remove</button>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div id="popup" class="alert alert-success alert-dismissible fade show" style=" opacity: 0; position: fixed; bottom: 0;right: 0">
+    <strong>Success!</strong> This Anime has been added to your Favorites list.
+</div>
+<div id="popupre" class="alert alert-danger alert-dismissible fade show" style=" opacity: 0; position: fixed; bottom: 0;right: 0">
+    <strong>Success!</strong> This Anime has been removed from your Favorites list.
+</div>
+</body>

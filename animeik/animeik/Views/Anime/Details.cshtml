@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    Anime a = (Anime)ViewData["anime"];
+}
+
+<H1>@a.title</H1>
+<div style="font-family: Arial, sans-serif ; font-size: x-large">
+    <div style="float: left; margin-right: 1em">
+        <img src="@a.image_url"/>
+    </div>
+    <p>Title: @a.title</p>
+    <p>Type: @a.type</p>
+    <p>Episodes: @a.episodes</p>
+    <p>Start date: @a.start_date</p>
+    <p>End date: @a.end_date</p>
+    <p>Score: @a.score</p>
+    <a href="@a.url" class="btn btn-primary">MAL</a>
+</div>

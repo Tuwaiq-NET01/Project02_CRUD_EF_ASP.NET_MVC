@@ -1,0 +1,207 @@
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csprojAssemblyReference.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfoInputs.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CoreCompileInputs.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.Manifest.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.xml
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\scopedcss\bundle\animeik.styles.css
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.input.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.output.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorCoreGenerate.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Details.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.json
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.exe
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.deps.json
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.json
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.dev.json
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.dll
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.genruntimeconfig.cache
+C:\Users\Hassan\Desktop\.Net projects\Project01_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CopyComplete
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.json
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.exe
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.deps.json
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.json
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.dev.json
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csprojAssemblyReference.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfoInputs.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfo.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CoreCompileInputs.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.Manifest.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.xml
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\scopedcss\bundle\animeik.styles.css
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.input.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.output.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorCoreGenerate.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Details.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cs
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CopyComplete
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.genruntimeconfig.cache
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\appsettings.json
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.exe
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.deps.json
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.json
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.runtimeconfig.dev.json
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csprojAssemblyReference.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfoInputs.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.AssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CoreCompileInputs.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorAssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.Manifest.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\staticwebassets\animeik.StaticWebAssets.xml
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\scopedcss\bundle\animeik.styles.css
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.input.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.TagHelpers.output.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorCoreGenerate.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Details.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Anime\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cache
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.RazorTargetAssemblyInfo.cs
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.Views.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.csproj.CopyComplete
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\ref\animeik.dll
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.pdb
+C:\Users\Hassan\Desktop\.Net projects\Project02_EF_ASP.NET_MVC\animeik\animeik\obj\Debug\net5.0\animeik.genruntimeconfig.cache
