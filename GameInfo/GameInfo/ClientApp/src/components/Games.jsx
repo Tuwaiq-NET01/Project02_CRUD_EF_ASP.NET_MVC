@@ -7,6 +7,7 @@ import DisplayGames from './DisplayGames';
 export default function Games() {
     const [allGames, setAllGames] = useState([])
     const [gameName, setGameName] = useState('');
+    const [gameImage, setGameImage] = useState('');
     const [gameDesc, setGameDesc] = useState('');
     const [rating, setRating] = useState(1);
     const [loading, setLoading] = useState(true);
@@ -36,6 +37,7 @@ const addGame  = (e) => {
     // e.preventDefault();
     let game = {
         gameName : gameName,
+        image: gameImage,
         description: gameDesc,
         rating: rating
     }
@@ -93,6 +95,10 @@ const addGame  = (e) => {
 <div class="mb-3">
 <label for="gameName" class="form-label">Game Name: </label>
 <input type="text" class="form-control" id="gameName" onChange={(e) => setGameName(e.target.value)} />
+</div>
+<div class="mb-3">
+<label for="gameImage" class="form-label">Game Image: </label>
+<input type="text" class="form-control" id="gameImage" onChange={(e) => setGameImage(e.target.value)} />
 </div>
 <div class="mb-3">
 <label for="gameDesc" class="form-label">Description: </label>

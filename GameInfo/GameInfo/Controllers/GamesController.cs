@@ -51,6 +51,30 @@ namespace GameInfo.Controllers
             return await _context.Games.ToListAsync();
         }
 
+
+
+        //e
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Game>> EditGame(int? id, Game game)
+        {
+            var targetGame = await _context.Games.FindAsync(id);
+            if (id == null || targetGame == null)
+            {
+                return NotFound();
+            }
+
+            targetGame.GameName = game.GameName;
+            targetGame.Image = game.Image;
+            targetGame.Description = game.Description;
+
+            _context.Games.Update(targetGame);
+            _context.SaveChanges();
+
+            return targetGame;
+        }
+
+
+
         [HttpDelete("{id}")]
         public async Task<ActionResult<IEnumerable<Game>>> DeleteGame(int id)
         {
