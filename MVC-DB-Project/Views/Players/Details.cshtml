@@ -1,0 +1,17 @@
+﻿@{
+    var player = (PlayerModel)ViewData["player"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Name: @player.name</h5>
+        <p class="card-text">Number: @player.number</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Id: @player.Id</li>
+    </ul>
+</div>
+
+
+<a asp-controller="players" asp-action="Index">Back to players</a>

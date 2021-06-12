@@ -1,0 +1,107 @@
+﻿@{var Players = (List<PlayerModel>)ViewData["Players"];
+   @* var Pid = (PlayerModel)ViewData["sId"];
+    var Pnums = (List<PlayerModel>)ViewData["sNum"];*@
+}
+
+<h1>This is the Players Available </h1>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Number</th>
+            <th scope="col">CoachId</th>
+            <th scope="col">TeamId</th>
+            <th scope="col">LeagueId</th>
+            <th scope="col">Details</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Players)
+        {
+        <tr>
+            <th scope="row">@player.Id</th>
+            <td>@player.name</td>
+            <td>@player.number</td>
+            <td>@player.CoacheId</td>
+            <td>@player.TeamId</td>
+            <td>@player.LeagueId</td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/players/details/@player.Id"> SHOW </a></button></td>
+            <td><a asp-controller="Players" asp-action="Edit" asp-route-Id="@player.Id"><button type="button" class="btn btn-dark"> Edit </button></a></td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@player.Id" method="post">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </form>
+            </td>
+        </tr>
+
+        }
+
+
+    </tbody>
+</table>
+<br />
+@*<h2>The data for the Player you are looking his Id</h2> 
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Number</th>
+            <th scope="col">CoachId</th>
+            <th scope="col">TeamId</th>
+            <th scope="col">LeagueId</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+        <tr>
+            <th scope="row">@Pid.Id</th>
+            <td>@Pid.name</td>
+            <td>@Pid.number</td>
+            <td>@Pid.CoacheId</td>
+            <td>@Pid.TeamId</td>
+            <td>@Pid.LeagueId</td>
+        </tr>
+
+        
+
+
+    </tbody>
+</table>
+
+<br />
+
+<h2>The data for the Players you are looking thier numbers</h2>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Number</th>
+            <th scope="col">CoachId</th>
+            <th scope="col">TeamId</th>
+            <th scope="col">LeagueId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Pnum in Pnums)
+        {
+        <tr>
+            <th scope="row">@Pnum.Id</th>
+            <td>@Pnum.name</td>
+            <td>@Pnum.number</td>
+            <td>@Pnum.CoacheId</td>
+            <td>@Pnum.TeamId</td>
+            <td>@Pnum.LeagueId</td>
+        </tr>
+
+        }
+
+
+    </tbody>
+</table>
+*@

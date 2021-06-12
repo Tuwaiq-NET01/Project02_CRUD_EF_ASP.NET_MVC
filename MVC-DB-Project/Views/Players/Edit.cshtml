@@ -1,0 +1,39 @@
+﻿@model PlayerModel;   //so the for Name recognize the name in c# code
+@{
+    var player = (PlayerModel)ViewData["player"];
+}
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+
+    <div class="form-group">
+        <label asp-for="name">name</label>
+        <input asp-for="name" value=@player.name />
+    </div>
+
+    <div class="form-group">
+
+        <input type="hidden" asp-for="Id" value=@player.Id />
+    </div>
+    <div class="form-group">
+        <label asp-for="number">number</label>
+        <input asp-for="number"  value=@player.number />
+        <span asp-validation-for="number"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CoacheId">Coache Id</label>
+        <input asp-for="CoacheId"  value="@player.CoacheId" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TeamId">Team Id</label>
+        <input asp-for="TeamId"  value="@player.TeamId" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LeagueId">League Id</label>
+        <input asp-for="LeagueId" value="@player.LeagueId"  />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="submit" class="btn btn-dark" />
+
+    </div>
+</form>

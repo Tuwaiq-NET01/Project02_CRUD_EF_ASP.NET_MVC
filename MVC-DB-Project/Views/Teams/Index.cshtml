@@ -1,0 +1,31 @@
+﻿@{var Teams = (List<TeamModel>)ViewData["Teams"];
+   
+}
+
+<h1>This is the Teams Available </h1>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Number Of Players</th>
+            <th scope="col">City</th>
+            <th scope="col">League Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Team in Teams)
+        {
+            <tr>
+                <th scope="row">@Team.Id</th>
+                <td>@Team.name</td>
+                <td>@Team.numberOfPlayers</td>
+                <td>@Team.city</td>
+                <td>@Team.LeagueId</td>
+            </tr>
+
+        }
+
+
+    </tbody>
+</table>
