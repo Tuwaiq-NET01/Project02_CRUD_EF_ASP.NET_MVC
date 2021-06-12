@@ -1,0 +1,23 @@
+﻿@model InstructorModel;
+<a asp-controller="Products" asp-action="Index">Back to products</a>
+
+<h1>Edit Instructor page</h1>
+
+<form asp-action="edit" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="Id">id</label>
+        <input asp-for="Id" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DOB">Date of Birth</label>
+        <input asp-for="DOB" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="submit" class="btn btn-dark" />
+    </div>
+
+</form>

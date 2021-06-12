@@ -1,0 +1,16 @@
+﻿@{
+    var data = (InstructorModel)ViewData["instructor"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Name: @data.Name</h5>
+        <p class="card-text">Date of Birth: @data.DOB</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Id: @data.Id</li>
+    </ul>
+</div>
+
+<a asp-controller="Instructors" asp-action="Index">Back to Instructors</a>

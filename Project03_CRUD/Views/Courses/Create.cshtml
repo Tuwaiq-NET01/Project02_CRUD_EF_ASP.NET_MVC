@@ -1,0 +1,31 @@
+﻿@model CourseModel;
+
+<h1>Create Course page</h1>
+
+<form asp-action="create" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" />
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="duration">Duration</label>
+        <input asp-for="duration" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <input asp-for="Price" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PublishDate">Publish Date</label>
+        <input asp-for="PublishDate" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="submit" class="btn btn-dark" />
+    </div>
+
+</form>

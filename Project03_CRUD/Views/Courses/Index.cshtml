@@ -1,0 +1,35 @@
+﻿@{
+    var records = (List<CourseModel>)ViewBag.Courses;
+}
+<a asp-action="Create"> create new Course</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Duratoin</th>
+            <th scope="col">Price</th>
+            @*<th scope="col">Details</th>*@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in records)
+        {
+            <tr>
+                <th scope="row">@record.Id</th>
+                <td>@record.Name</td>
+                <td>@record.duration</td>
+                <td>@record.Price</td>
+                <td><button type="button" class="btn btn-dark"><a style="color:white" asp-action="Details" asp-route-id="@record.Id"> SHOW </a></button></td>
+                <td><button type="button" class="btn btn-dark"><a style="color:white" asp-action="edit" asp-route-id="@record.Id"> EDIT </a></button></td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@record.Id" method="post">
+                        <input type="submit" value="Destroy" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

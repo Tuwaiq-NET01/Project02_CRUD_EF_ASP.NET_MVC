@@ -1,0 +1,24 @@
+﻿@model InstructorModel;
+
+<h1>Create Instructor page</h1>
+
+<form asp-action="create" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="Id">Id</label>
+        <input asp-for="Id" />
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DOB">Date of birth</label>
+        <input asp-for="DOB" />
+        <span asp-validation-for="DOB"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="submit" class="btn btn-dark" />
+    </div>
+
+</form>
