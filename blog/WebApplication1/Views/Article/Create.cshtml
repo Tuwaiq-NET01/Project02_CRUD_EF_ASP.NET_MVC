@@ -1,0 +1,20 @@
+﻿@model ArticleModel
+
+<h1>Create an article</h1>
+<div class="grid grid-cols-3">
+    <div class="col-span-2 border-r border-black p-2">
+        <h2>form</h2>
+        <form asp-action="Create" method="post">
+            <label asp-for="Title">Title:</label>
+            <input asp-for="Title" type="text" />
+            <br />
+            <label asp-for="HTMLContent">Content:</label>
+            <textarea asp-for="HTMLContent" class="border border-b lack" rows="10" cols="50"></textarea>
+            <br />
+            <input type="submit" value="Add post" />
+        </form>
+    </div>
+    <div>
+        idk
+    </div>
+</div>

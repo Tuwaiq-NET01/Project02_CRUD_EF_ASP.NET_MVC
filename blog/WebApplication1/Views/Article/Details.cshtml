@@ -1,0 +1,44 @@
+﻿@model CommentModel
+@{
+    var article = (ArticleModel)ViewData["article"];
+    var comments = (List<CommentModel>)ViewData["comments"];
+}
+<h1>@article.Title</h1>
+<div>
+    written by: @article.UserId
+    <p>
+        @article.HTMLContent
+    </p>
+    <a href="~/article/edit/@article.Id">Edit</a>
+    <form asp-action="Delete" method="post" asp-route-id="@article.Id">
+        <input type="submit" value="Delete" />
+    </form>
+
+</div>
+<hr />
+<h1>Comments</h1>
+
+<div class="grid grid-cols-3 gap-4 p-4">
+    <div class="col-span-2">
+        @foreach (var c in comments)
+        {
+            <div class="p-2 border border-black mb-4">
+                @c.Date
+                <p>
+                    @c.Content
+                </p>
+                <form asp-controller="Comments" asp-action="Delete" asp-route-id="@c.Id">
+                    <input type="submit" value="X" />
+                </form>
+            </div>
+        }
+    </div>
+    <div>
+        <form asp-controller="Comments" asp-action="Create" asp-route-id="@article.Id">
+            <label asp-for="Content">Comment</label>
+            <textarea asp-for="Content" cols="25" rows="3" class="border border-black"></textarea>
+            <input type="submit" value="Add comment" />
+        </form>
+    </div>
+
+</div>

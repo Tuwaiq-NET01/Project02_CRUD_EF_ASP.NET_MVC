@@ -1,0 +1,23 @@
+﻿@{ 
+    var articles = (List<ArticleModel>)ViewData["articles"];
+}
+<section>
+    <h1>Articles</h1>
+</section>
+<div class="p-4 bg-gray-50 grid grid-cols-3">
+    <div class="col-span-2">
+        @foreach(var a in articles)
+            {
+                <div class="p-4 border border-black text-lg">
+                    <h1>@a.Title</h1>  
+                    @a.Date
+                    @a.UserId
+                    <p>@a.HTMLContent</p>
+                    <a href="article/details/@a.Id">Read more >></a>
+                </div>
+            }
+    </div>
+    <div>
+        <a href="article/create">Create an Article</a>
+    </div>
+</div>
