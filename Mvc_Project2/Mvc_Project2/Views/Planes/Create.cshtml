@@ -1,0 +1,29 @@
+﻿@model PlaneModel
+
+<form asp-action="Create" method="post" class="form-horizontal">
+
+    <div class="fornm-group input-group mb-3">
+        <div class="input-group-prepend">
+            <label asp-for="Id" class="input-group-text">Id </label>
+            <input asp-for="Id" class="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+
+    </div>
+
+    <div class="fornm-group input-group mb-3">
+
+        <label asp-for="Name" class="input-group-text">Name </label>
+        <input asp-for="Name" class="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+    
+    </div>
+
+    <div class="fornm-group input-group mb-3">
+        <label asp-for="Airlines"  class="input-group-text">Airlines</label>
+        <input asp-for="Airlines"  class="form-control" aria-label="Username" aria-describedby="basic-addon1"/>
+    </div>
+
+    <div class="fornm-group">
+        <input type="submit" class="btn btn-primary" value="submit" />
+    </div>
+
+</form>

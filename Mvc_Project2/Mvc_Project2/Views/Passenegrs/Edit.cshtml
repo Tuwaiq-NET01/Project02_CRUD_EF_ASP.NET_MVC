@@ -1,0 +1,34 @@
+﻿@model PassengerModel
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+
+    <div class="fornm-group">
+        <label asp-for="Id">Id </label>
+        <input asp-for="Id" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="Name">Name </label>
+        <input asp-for="Name" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="PhoneNum">Phone Number</label>
+        <input asp-for="PhoneNum" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="PlaneId">PlaneId</label>
+        <input asp-for="PlaneId" />
+    </div>
+
+    <div class="fornm-group">
+        <input type="submit" class="btn btn-primary" value="Update" />
+    </div>
+
+</form>

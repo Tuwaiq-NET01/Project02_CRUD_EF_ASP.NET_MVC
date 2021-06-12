@@ -1,0 +1,33 @@
+﻿@{
+    var planes = (List<PlaneModel>)ViewData["Planes"];
+  }
+<br /><br />
+    <h2>Planes Table</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Airlines</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var i in planes)
+                {
+                        <tr>
+                            <th scope="row">@i.Id</th>
+                            <td>@i.Name</td>
+                            <td>@i.Airlines</td>
+                            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Planes/Details/@i.Id"> SHOW </a></button></td>
+                            <td><button type="button" class="btn btn-dark"><a asp-controller="Planes" asp-action="Edit" asp-route-id="@i.Id"> Edit </a></button></td>
+                            <td>
+                                <form asp-action="Delete" asp-route-id="@i.Id" method="post">
+                                    <input type="submit" class="btn-danger" value="delete" />
+                                </form>
+                            </td>
+                        </tr>
+                }
+            }
+        </tbody>
+    </table>

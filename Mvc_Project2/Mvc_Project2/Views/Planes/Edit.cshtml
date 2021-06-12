@@ -1,0 +1,24 @@
+﻿@model PlaneModel
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+
+    <div class="fornm-group">
+        <label asp-for="Id">Id </label>
+        <input asp-for="Id" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="Name">Name </label>
+        <input asp-for="Name" />
+    </div>
+
+    <div class="fornm-group">
+        <label asp-for="Airlines">Airlines</label>
+        <input asp-for="Airlines" />
+    </div>
+
+    <div class="fornm-group">
+        <input type="submit" class="btn btn-primary" value="Update" />
+    </div>
+
+</form>

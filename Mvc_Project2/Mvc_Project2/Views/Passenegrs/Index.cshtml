@@ -1,0 +1,41 @@
+﻿@{
+    var passenegrs = (List<PassengerModel>)ViewData["Passenegrs"];
+   @* var countries = (List<CountryModel>)ViewData["Countries"];
+    var bags = (List<BagModel>)ViewData["Bags"];
+*@
+}
+<br /><br />
+<h2>Passengers Table</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col" style="color:red;">PlaneId</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var i in passenegrs)
+            {
+                <tr>
+                    <th scope="row">@i.Id</th>
+                    <td>@i.Name</td>
+                    <td>@i.Email</td>
+                    <td>@i.PhoneNum</td>
+                    <td style="color:red;">@i.PlaneId</td>
+                    <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Passenegrs/Details/@i.Id"> SHOW </a></button></td>
+                    <td><button type="button" class="btn btn-dark"><a asp-controller="Passenegrs" asp-action="Edit" asp-route-id="@i.Id"> Edit </a></button></td>
+                    <td>
+                        <form asp-action="Delete" asp-route-id="@i.Id" method="post">
+                            <input type="submit" class="btn-danger" value="delete" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<br /><br />

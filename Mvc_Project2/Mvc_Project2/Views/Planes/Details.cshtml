@@ -1,0 +1,23 @@
+﻿@{
+    var planes = (PlaneModel)ViewData["Planes"];
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Airlines</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <th scope="row">@planes.Id</th>
+            <td>@planes.Name</td>
+            <td>@planes.Airlines</td>
+        </tr>
+    </tbody>
+</table>
+
