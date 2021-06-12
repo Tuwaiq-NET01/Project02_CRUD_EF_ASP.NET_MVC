@@ -1,0 +1,37 @@
+﻿@model AirportModel
+
+
+<form asp-action="create" method="post" class="form-horizontal">
+    <div class=" form-group">
+        <label asp-for="Airport_ID">Id</label>@*{for} used to mke the input field active but {asp-for} not make the label active*@
+        <input type="text" asp-for="Airport_ID" />
+
+    </div>
+
+    <div class=" form-group">
+        <label asp-for="Airport_Short">ShortCut Name</label>@*{for} used to mke the input field active but {asp-for} not make the label active*@
+        <input type="text" asp-for="Airport_Short" />
+        <span asp-validation-for="Airport_Short"></span>
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="Airport_Name">Name</label>@*{for} used to mke the input field active but {asp-for} not make the label active*@
+        <input type="text" asp-for="Airport_Name" />
+        <span asp-validation-for="Airport_Name"></span>
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="Country_City">City</label>@*{for} used to mke the input field active but {asp-for} not make the label active*@
+        <input type="text" asp-for="Country_City" />
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="Gate">Gate</label>@*{for} used to mke the input field active but {asp-for} not make the label active*@
+        <input type="text" asp-for="Gate" />
+
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="SUBMIT" />
+
+    </div>
+</form>

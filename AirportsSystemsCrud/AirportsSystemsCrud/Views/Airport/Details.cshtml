@@ -1,0 +1,20 @@
+﻿@{
+    var Airport = (AirportModel)ViewData["Airport"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Name: @Airport.Airport_Name</h5>
+        <p class="card-text">ShortCut Name: @Airport.Airport_Short</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Country: @Airport.Country_City</li>
+        <li class="list-group-item">Gate: @Airport.Gate</li>
+
+    </ul>
+</div>
+
+
+
+<a asp-controller="Airport" asp-action="Index">Back to Airports</a>

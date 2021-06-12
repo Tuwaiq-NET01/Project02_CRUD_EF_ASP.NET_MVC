@@ -1,0 +1,56 @@
+﻿@model IEnumerable<AirportsSystemsCrud.Models.AirportModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport_Short)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country_City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Airport_Short)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Airport_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country_City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gate)
+            </td>
+            <td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Airport/details/@item.Airport_ID"> SHOW </a></button></td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Airport/Edit/@item.Airport_ID"> EDIT </a></button></td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@item.Airport_ID" method="post">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

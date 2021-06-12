@@ -1,0 +1,37 @@
+﻿@{
+    var Airport = (AirportModel)ViewData["Airport"];
+}
+
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+    <div class=" form-group">
+        <label asp-for="@Airport.Airport_ID">Id</label>
+       <input type="text" asp-for="@Airport.Airport_ID" disabled />
+
+    </div>
+
+    <div class=" form-group">
+        <label asp-for="@Airport.Airport_Short">Shrtcut Name</label>
+        <input type="text" asp-for="@Airport.Airport_Short" />
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="@Airport.Airport_Name">Name</label>
+        <input type="text" asp-for="@Airport.Airport_Name" />
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="@Airport.Country_City">Country</label>
+        <input type="text" asp-for="@Airport.Country_City" />
+
+    </div>
+    <div class=" form-group">
+        <label asp-for="@Airport.Gate">Gate</label>
+        <input type="text" asp-for="@Airport.Gate" />
+
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Update" />
+
+    </div>
+</form>
