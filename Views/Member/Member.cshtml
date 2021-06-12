@@ -1,0 +1,48 @@
+﻿@{
+    var members = (List<Member>)ViewData["members"];
+}
+
+
+<h1 class="text-center">Members List</h1>
+<table class="table text-white">
+    <thead>
+        <tr>
+            <th scope="col">Memebr Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Membership Expiry Date</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var memebr in members)
+        {
+            <tr>
+
+                <td> @memebr.Id</td>
+
+                <td> @memebr.Name</td>
+
+                <td> @memebr.Address</td>
+
+                <td> @memebr.ExpiryDate</td>
+
+                <td> <a asp-controller="Member" asp-action="Details" asp-route-id="@memebr.Id" class="btn btn-primary">Show</a></td>
+
+                <td> <a asp-controller="Member" asp-action="Edit" asp-route-id="@memebr.Id" class="btn btn-danger">Edit</a></td>
+
+                <td>
+                    <form asp-controller="Member" asp-route-id="@memebr.Id" asp-action="Delete">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>
+<a asp-controller="Member" asp-action="Create" class="btn btn-success">Add Member</a>
+

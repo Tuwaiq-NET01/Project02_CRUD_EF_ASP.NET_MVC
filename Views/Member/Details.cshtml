@@ -1,0 +1,19 @@
+﻿@{
+    var member = (Member)ViewData["members"];
+}
+
+<div class="card text-center">
+    <div class="card-header">
+        <h4>Member Details</h4>
+    </div>
+    <div class="card-body">
+        <h3 class="card-title">@member.Name</h3>
+        <p class="card-text"><span>Member Id: </span> @member.Id</p>
+        <p class="card-text"><span>Address: </span> @member.Address</p>
+        <p class="card-text"><span>Expiry Date: </span> @member.ExpiryDate</p>
+        <a asp-controller="Member" asp-action="Edit" asp-route-id="@member.Id" class="btn btn-primary">Edit</a>
+    </div>
+    <div class="card-footer text-muted">
+        2 days ago
+    </div>
+</div>

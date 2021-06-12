@@ -1,0 +1,21 @@
+﻿@model Member
+@{
+}
+
+<form asp-action="Create" method="post" class="form-group">
+    <label asp-for="Name">Member Name: </label>
+    <div class="form-group">
+        <input asp-for="Name" />
+    </div>
+    <label asp-for="Address">Member Address: </label>
+    <div class="form-group">
+        <input asp-for="Address" />
+    </div>
+    <label asp-for="ExpiryDate">Membership Expiry Date: </label>
+    <div class="form-group">
+        <input asp-for="ExpiryDate" />
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" />
+    </div>
+</form>
