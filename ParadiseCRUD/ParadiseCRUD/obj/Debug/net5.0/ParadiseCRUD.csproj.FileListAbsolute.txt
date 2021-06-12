@@ -82,3 +82,5 @@ C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Vie
 C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Views\Community\_NotFound.cshtml.g.cs
 C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Views\Flowers\_NotFound.cshtml.g.cs
 C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Views\Plants\_NotFound.cshtml.g.cs
+C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Views\Flowers\Details.cshtml.g.cs
+C:\Users\Alban\source\repos\ParadiseCRUD\ParadiseCRUD\obj\Debug\net5.0\Razor\Views\Plants\Details.cshtml.g.cs

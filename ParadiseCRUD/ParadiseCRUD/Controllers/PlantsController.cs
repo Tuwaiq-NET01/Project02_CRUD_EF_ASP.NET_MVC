@@ -24,6 +24,14 @@ namespace ParadiseCRUD.Controllers
             return View();
         }
 
+        public IActionResult Details(int? id)
+        {
+            var Plant = _db.Plants.ToList().Find(a => a.ID == id);
+
+            ViewData["Plant"] = Plant;
+            return View();
+
+        }
         //GET
         public IActionResult Create()
         {

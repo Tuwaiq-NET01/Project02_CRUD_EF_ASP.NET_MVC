@@ -9,9 +9,9 @@
 @foreach (var item in Flowers)
 {
 
-        <div class="list-inline-item mr-3 ml-3 mb-3">
+        <div class="list-inline-item mr-3 ml-5 mb-5 mt-2">
             <div class="card" style="width: 18rem;">
-                <img src="@item.Image" class="card-img-top" height="200" width="40" alt="...">
+                <a href="/Flowers/Details/@item.ID"/>  <img src="@item.Image" class="card-img-top" height="200" width="40" alt="..."> <a/>
                 <div class="card-body">
                     <h5 class="card-title">
                         <button type="button" class="btn btn-danger">
