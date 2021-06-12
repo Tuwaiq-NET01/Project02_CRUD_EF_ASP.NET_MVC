@@ -78,7 +78,7 @@ const addGame  = () => {
             <h1 className="display-4">All Games: </h1>
 
 
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
   Add New Game
 </button>
 
@@ -122,7 +122,6 @@ const addGame  = () => {
         )}
 
            
-
 
 
 
