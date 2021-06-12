@@ -1,0 +1,110 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model CarOrderModel
+@{
+    var Chassis = (List<ChassisModel>)ViewData["Chassis"];
+    var Engine = (List<EngineModel>)ViewData["Engine"];
+    var Gear = (List<GearModel>)ViewData["Gear"];
+    var Color = (List<ColorModel>)ViewData["Color"];
+
+}
+<h1> Let's create your dream car</h1>
+
+<h2>
+    Choose Chassis:
+</h2>
+
+<form asp-action="create" method="post" class="form-horziontal">
+    <div class="container">
+        <div class="row">
+            @foreach (var Chas in Chassis)
+            {<div class="col-sm">
+                    <div class="card" style="width: 18rem; margin: 1rem">
+                        <h5 class="card-title">@Chas.Type</h5>
+                        <img src="@Chas.Image" class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" alt="@Chas.Type">
+                        <div>@Chas.Price SAR</div>
+                        Use @Chas.Id in the input field to select it.
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="form-group">
+
+        <label asp-for="ChassisId"></label>
+        <input asp-for="ChassisId" />
+    </div>
+
+    <div class="container">
+        <div class="row">
+            @foreach (var Eng in Engine)
+            {<div class="col-sm">
+                    <div class="card" style="width: 18rem; margin: 1rem">
+                        <h5 class="card-title">@Eng.Type</h5>
+                        <img src="@Eng.Image" class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" alt="@Eng.Type">
+                        <div>@Eng.Price SAR</div>
+                        Use @Eng.Id in the input field to select it.
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="form-group">
+
+        <label asp-for="EngineId"></label>
+        <input asp-for="EngineId" />
+    </div>
+    <div class="container">
+        <div class="row">
+            @foreach (var g in Gear)
+            {<div class="col-sm">
+                    <div class="card" style="width: 18rem; margin: 1rem">
+                        <h5 class="card-title">@g.Type</h5>
+                        <img src="@g.Image" class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" alt="@g.Type">
+                        <div>@g.Price SAR</div>
+                        Use @g.Id in the input field to select it.
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="form-group">
+
+        <label asp-for="GearId"></label>
+        <input asp-for="GearId" />
+    </div>
+    <div class="container">
+        <div class="row">
+            @foreach (var c in Color)
+            {<div class="col-sm">
+                    <div class="card" style="width: 18rem; margin: 1rem">
+                        <h5 class="card-title">@c.Type</h5>
+                        <img src="@c.Image" class="card-img-top" style="width: 100%; height: 15vw; object-fit: cover;" alt="@c.Type">
+                        <div>@c.Price SAR</div>
+                        Use @c.Id in the input field to select it.
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+    <div class="form-group">
+
+        <label asp-for="ColorId"></label>
+        <input asp-for="ColorId" />
+    </div>
+
+    <div class="form-group">
+
+        <label asp-for="TotalPrice"></label>
+        <input asp-for="TotalPrice" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Submit" />
+    </div>
+</form>

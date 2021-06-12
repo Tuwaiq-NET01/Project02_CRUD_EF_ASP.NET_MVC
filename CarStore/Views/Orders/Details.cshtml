@@ -1,0 +1,44 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Orders";
+
+    var Orders = (CarOrderModel)ViewData["Order"];
+}
+
+
+
+
+<br />
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Chassis</th>
+            <th scope="col">Engine</th>
+            <th scope="col">Gear</th>
+            <th scope="col">Color</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+
+            <tr>
+                <th scope="row">@Orders.Id</th>
+                <td><img src=@Orders.Chassis.Image style="width: 120px; height: 120px;"/></td>
+                <td><img src=@Orders.Engine.Image style="width: 120px; height: 120px;"/></td>
+                <td><img src=@Orders.Gear.Image style="width: 120px; height: 120px;"/></td>
+                <td><img src=@Orders.Color.Image style="width: 120px; height: 120px;"/></td>
+                <td>@Orders.TotalPrice SAR</td>
+            </tr>
+        
+
+
+    </tbody>
+</table>

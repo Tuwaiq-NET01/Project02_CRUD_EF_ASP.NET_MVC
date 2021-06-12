@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Orders";
+
+    var Orders = (List<CarOrderModel>)ViewData["Order"];
+}
+
+<button type="button" style="margin: 2rem"><a href="/orders/create"> Create a new order </a></button>
+<br />
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Chassis</th>
+            <th scope="col">Engine</th>
+            <th scope="col">Gear</th>
+            <th scope="col">Color</th>
+            <th scope="col">Price</th>
+            <th scope="col">Show</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Order in Orders)
+        {
+        <tr>
+            <th scope="row">@Order.Id</th>
+            <td>@Order.Chassis.Type</td>
+            <td>@Order.Engine.Type</td>
+            <td>@Order.Gear.Type</td>
+            <td>@Order.Color.Type</td>
+            <td>@Order.TotalPrice SAR</td>
+            <td>
+                <button type="button" class="btn btn-dark"><a style="color:white" href="/orders/details/@Order.Id"> SHOW </a></button>
+                </td>
+            <td>
+                <button type="button" class="btn btn-warning"><a asp-controller="Orders" asp-action="Edit" asp-route-id=@Order.Id>Edit</a></button>
+                </td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@Order.Id" method="post">
+                    <input type="submit" class="btn btn-danger" value="Delete">
+                </form>
+            </td>
+        </tr>
+        }
+
+
+    </tbody>
+</table>
