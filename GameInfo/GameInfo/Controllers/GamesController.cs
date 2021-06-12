@@ -44,11 +44,11 @@ namespace GameInfo.Controllers
 
         // POST: api/games
         [HttpPost]
-        public async Task<ActionResult<Game>> PostGame(Game game)
+        public async Task<ActionResult<IEnumerable<Game>>> PostGame(Game game)
         {
             _context.Games.Add(game);
             await _context.SaveChangesAsync();
-            return CreatedAtAction("GetUser", new { id = game.Id }, game);
+            return await _context.Games.ToListAsync();
         }
 
         [HttpDelete("{id}")]
