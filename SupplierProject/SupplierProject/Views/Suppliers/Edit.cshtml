@@ -1,0 +1,33 @@
+﻿@model SupplierModel
+@{
+    var Supplier = (SupplierModel)ViewData["Supplier"];
+}
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+    <div class="form-group">
+        <input type="hidden" asp-for="SupplierID" value="@Supplier.SupplierID" />
+    </div>
+    <div class="form-group">
+        <label asp-for="FirstName">First Name:</label>
+        <input asp-for="FirstName" value="@Supplier.FirstName" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName">Last Name:</label>
+        <input asp-for="LastName" value="@Supplier.LastName" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Gender">Gender:</label>
+        <input asp-for="Gender" value="@Supplier.Gender" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">Address:</label>
+        <input asp-for="Address" value="@Supplier.Address" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNumber">Phone Number:</label>
+        <input asp-for="PhoneNumber" value="@Supplier.PhoneNumber" />
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Update" />
+    </div>
+</form>

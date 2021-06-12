@@ -1,0 +1,46 @@
+﻿@{
+    var Suppliers = (List<SupplierModel>)ViewData["Suppliers"];
+}
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Supplier ID:</th>
+            <th scope="col">First Name:</th>
+            <th scope="col">Last Name:</th>
+            <th scope="col">Gender:</th>
+            <th scope="col">Address:</th>
+            <th scope="col">Phone Number:</th>
+            <th scope="col">View:</th>
+            <th scope="col">Edit:</th>
+            <th scope="col">Delete:</th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Supplier in Suppliers)
+        {
+        <tr>
+            <th scope="row">@Supplier.SupplierID</th>
+            <td>@Supplier.FirstName</td>
+            <td>@Supplier.LastName</td>
+            <td>@Supplier.Gender</td>
+            <td>@Supplier.Address</td>
+            <td>@Supplier.PhoneNumber</td>
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/suppliers/details/@Supplier.SupplierID"> SHOW </a></button></td>
+            <td><button type="button" class="btn btn-dark"><a asp-controller="Suppliers" asp-action="Edit" asp-route-id="@Supplier.SupplierID">EDIT</a></button></td>
+            <td>
+                <form asp-action="Delete" asp-route-id="@Supplier.SupplierID" method="post">
+                    <input type="submit" value="DELETE" class="btn btn-danger" />
+                </form>
+            </td>
+
+        </tr>
+        }
+
+
+    </tbody>
+</table>

@@ -1,0 +1,276 @@
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\appsettings.json
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.exe
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.deps.json
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.runtimeconfig.json
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.runtimeconfig.dev.json
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ref\SupplierProject.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.pdb
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.Views.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.Views.pdb
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csprojAssemblyReference.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.AssemblyInfoInputs.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.AssemblyInfo.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csproj.CoreCompileInputs.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorAssemblyInfo.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorAssemblyInfo.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\staticwebassets\SupplierProject.StaticWebAssets.Manifest.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\staticwebassets\SupplierProject.StaticWebAssets.xml
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\scopedcss\bundle\SupplierProject.styles.css
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.TagHelpers.input.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.TagHelpers.output.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorCoreGenerate.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorTargetAssemblyInfo.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorTargetAssemblyInfo.cs
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.Views.pdb
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csproj.CopyComplete
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\ref\SupplierProject.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.pdb
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.genruntimeconfig.cache
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmin\source\repos\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csprojAssemblyReference.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.AssemblyInfoInputs.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.AssemblyInfo.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csproj.CoreCompileInputs.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorAssemblyInfo.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorAssemblyInfo.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\ref\SupplierProject.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.pdb
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\appsettings.json
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.exe
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.deps.json
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.runtimeconfig.json
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.runtimeconfig.dev.json
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ref\SupplierProject.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.pdb
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.Views.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SupplierProject.Views.pdb
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\staticwebassets\SupplierProject.StaticWebAssets.Manifest.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\staticwebassets\SupplierProject.StaticWebAssets.xml
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\scopedcss\bundle\SupplierProject.styles.css
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.TagHelpers.input.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.TagHelpers.output.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorCoreGenerate.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Suppliers\Index.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorTargetAssemblyInfo.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.RazorTargetAssemblyInfo.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.Views.pdb
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.csproj.CopyComplete
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\SupplierProject.genruntimeconfig.cache
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Suppliers\Create.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Suppliers\Details.cshtml.g.cs
+C:\Users\Yasmin\Documents\.NET\ASP.NET MVC\SupplierProject\SupplierProject\obj\Debug\net5.0\Razor\Views\Suppliers\Edit.cshtml.g.cs

@@ -1,0 +1,22 @@
+﻿@{
+    var Supplier = (SupplierModel)ViewData["Supplier"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Fist Name: @Supplier.FirstName</h5>
+        <h5 class="card-title">Last Name: @Supplier.LastName</h5>
+
+        <p class="card-text">Address: @Supplier.Address</p>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Supplier ID: @Supplier.SupplierID</li>
+        <li class="list-group-item">Gender: @Supplier.Gender</li>
+        <li class="list-group-item">Phone Number: @Supplier.PhoneNumber</li>
+
+
+    </ul>
+</div>
+
+<a asp-controller="Suppliers" asp-action="Index">Back to Suppliers</a>
