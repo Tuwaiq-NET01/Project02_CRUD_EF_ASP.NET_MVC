@@ -8,13 +8,15 @@ export default function GameForm(props) {
     const [gameImage, setGameImage] = useState('');
     const [gameDesc, setGameDesc] = useState('');
     const [rating, setRating] = useState(1);
+    const [genre, setGenre] = useState('')
 
     const editGame = () => {
         let game = {
             gameName : gameName,
             image : gameImage,
             description: gameDesc,
-            rating: rating
+            rating: rating,
+            genre: genre
         }
 
         props.editGame(game)
@@ -26,6 +28,8 @@ export default function GameForm(props) {
             setGameName(props.game.gameName)
             setGameImage(props.game.image)
             setGameDesc(props.game.description)
+            setRating(props.game.rating)
+            setGenre(props.game.genre)
         }
     }, [])
 
@@ -37,15 +41,17 @@ export default function GameForm(props) {
                 gameName : gameName,
                 image : gameImage,
                 description: gameDesc,
-                rating: rating
+                rating: rating,
+                genre: genre
             }
+            console.log("BEF GOING TO PARETN : ", game);
 props.setGame(game)
         }
 
     }, [gameName,
         gameImage,
         gameDesc,
-        rating])
+        rating, genre])
 
     return (
         <div>
@@ -97,6 +103,16 @@ props.setGame(game)
 <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill />
 </label>
 </div>
+
+
+<select class="form-select my-4" aria-label="Default select example" value={genre} onChange={(e) => {setGenre(e.target.value)}}>
+  <option selected>Choose Genre</option>
+  <option value="Shooter">Shooter</option>
+  <option value="Horror">Horror</option>
+  <option value="Racing">Racing</option>
+  <option value="Adventure">Adventure</option>
+</select>
+
 
 
 

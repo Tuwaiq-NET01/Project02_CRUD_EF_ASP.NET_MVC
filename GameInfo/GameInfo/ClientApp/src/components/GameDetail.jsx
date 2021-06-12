@@ -7,11 +7,6 @@ import GameForm from "./GameForm";
 export default function GameDetail(props) {
   const [game, setGame] = useState({});
 
-  const [gameName, setGameName] = useState('');
-  const [gameImage, setGameImage] = useState('');
-  const [gameDesc, setGameDesc] = useState('');
-
-
   const [editMode, setEditMode] = useState(false)
 
   const editStatus = () => {
@@ -35,8 +30,6 @@ export default function GameDetail(props) {
 
 
   const editGame = (game) => {
-    
-
       axios.put(`https://localhost:44384/api/games/${props.match.params.id}`, game)
 .then(res => {
   console.log(res)
@@ -94,9 +87,8 @@ export default function GameDetail(props) {
   <h1 className="mb-4">{game.gameName}</h1>
 
     <h1> {stars}</h1>
-{/* <h1 style={{color: 'yellow'}} > <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> </h1> */}
     </div>
-
+<h3>{game.genre}</h3>
     <p>{game.description}</p>
     
 

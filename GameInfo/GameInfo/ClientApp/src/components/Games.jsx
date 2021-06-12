@@ -9,6 +9,7 @@ export default function Games() {
     const [gameName, setGameName] = useState('');
     const [gameImage, setGameImage] = useState('');
     const [gameDesc, setGameDesc] = useState('');
+    const [genre, setGenre] = useState('')
     const [rating, setRating] = useState(1);
     const [loading, setLoading] = useState(true);
     const url = 'https://localhost:44384/api/games'
@@ -35,17 +36,20 @@ useEffect(() => {
         setGameImage(game.image)
         setGameDesc(game.description)
         setRating(game.rating)
+        setGenre(game.genre)
     }
 
 const addGame  = () => {
     // e.preventDefault();
+
     let game = {
         gameName : gameName,
         image: gameImage,
         description: gameDesc,
-        rating: rating
+        rating: rating,
+        genre: genre
     }
-              
+              console.log("BEFORE ADDING: ", game);
       axios.post(url,game)
       .then(res => {
       console.log(res)
