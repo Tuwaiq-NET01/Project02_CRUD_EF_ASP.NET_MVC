@@ -1,4 +1,24 @@
-# Project03_CRUD_With_ASP.NET_MVC
+# GameInfo
+
+### PROJECT3: 
+GameInfo website with full CRUD operation. Built using: 
+- [x] ASP.NET Core 5
+- [x] Entity Framework Core.
+- [x] MS SQL Server.
+- [x] ReactSJ.
+- [x] Bootstrap.
+
+
+### <b> Student:</b>  Mohammed Rashed Albalawi.
+### <b> Group:</b>  Al-qiddiyah.
+### <b> Group Supervisor:</b>  Noorah Abdullah.
+
+
+<br />
+<hr />
+<br />
+
+
 
 <div dir="rtl" align="right">
 
