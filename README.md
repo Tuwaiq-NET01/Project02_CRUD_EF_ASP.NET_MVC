@@ -9,23 +9,68 @@
 <br>
 
 </div>
-Live : https://animeinfo.azurewebsites.net/Animes
-<br>
-Controller/Action
+Website Pages
 <br>
 /animes/index
 <br>
-/contact/index
+/animes/add
 <br>
-/aboutwebsite/index
+/animes/details/id?
+<br>
+/animes/edit/id?
+<br>
+/animes/delete/id?
 <br>
 
 screenshots
 
-![alt text](https://i.ibb.co/27fz99P/image.png)
+<br>
 
+Home Page Anime List Section
 
-![alt text](https://i.ibb.co/sqPJxRd/image.png)
+<br>
+
+![alt text](https://i.ibb.co/c8XByCD/image.png)
+
+<br>
+
+Card Details
+
+<br>
+
+![alt text](https://i.ibb.co/HqKvpyk/image.png)
+
+<br>
+
+Home Page Random Videos Section
+
+<br>
 
 ![alt text](https://i.ibb.co/kJwrPwc/image.png)
+
+<br> <br>
+
+Anime Details Page
+
+/animes/details/id?
+
 <br>
+
+![alt text](https://i.ibb.co/nLXd56c/image.png)
+
+<br>
+Adding Form
+<br>
+/animes/add
+<br>
+
+![alt text](https://i.ibb.co/Dgr3kPt/image.png)
+
+<br> <br>
+Editing Form
+
+/animes/edit/id?
+
+<br>
+
+![alt text](https://i.ibb.co/0nK4T7r/image.png)
