@@ -30,7 +30,7 @@
 
 ![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919731/Screenshot_2021-06-05_220011_se3spf.png)
 
-### Error Page
+### Not Found Page
 
 ![alt text](https://res.cloudinary.com/duuconncq/image/upload/v1622919730/Screenshot_2021-06-05_220040_fbe5op.png)
 
