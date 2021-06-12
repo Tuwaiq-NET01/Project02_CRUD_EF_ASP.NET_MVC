@@ -1,0 +1,38 @@
+﻿
+@{
+    var Users = (List<User>)ViewData["Users"];
+
+}
+
+<h1 style="text-align:center;padding-bottom:30px">Current Users</h1>
+
+<table class="table ">
+    <thead>
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                First Name
+            </td>
+            <td>
+                Last Name
+            </td>
+            <td>
+                Email
+            </td>
+
+        </tr>
+        </th>
+    <tbody>
+        @foreach (var User in Users)
+        {
+            <tr>
+                <td>@User.Id</td>
+                <td>@User.FirstName</td>
+                <td>@User.LastName</td>
+                <td>@User.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>

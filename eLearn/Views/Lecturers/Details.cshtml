@@ -1,0 +1,38 @@
+﻿@{
+    var Lecturer = (Lecturer)ViewData["Details"];
+    Layout = "_LayoutDesign";
+}
+
+
+<h1 style="text-align:center;padding-bottom:30px; background-color:#343a40;color:white; margin-top:20px !important">Details</h1>
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <td>
+                Id
+            </td>
+            <td>
+                First Name
+            </td>
+            <td>
+                Last Name
+            </td>
+            <td>
+                Email
+            </td>
+        </tr>
+    <tbody>
+        <tr>
+            <td>@Lecturer.Id</td>
+            <td>@Lecturer.FirstName</td>
+            <td>@Lecturer.LastName</td>
+            <td>@Lecturer.Email</td>
+        </tr>
+        <tr>
+            <td colspan="4"><a href="/Lecturers" class="btn btn-primary btn-color">Back</a></td>
+        </tr>
+
+    </tbody>
+</table>
+

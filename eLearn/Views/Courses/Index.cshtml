@@ -1,0 +1,29 @@
+﻿@{
+    var Courses = (List<Course>)ViewData["Courses"];
+    Layout = "_LayoutDesign";
+}
+
+
+
+<table class="table table-striped table-hover" dir="rtl">
+    <div class="container">
+        <div class="row">
+
+            @foreach (var item in Courses)
+            {
+
+                <div class="card col-3" style="width: 18rem;">
+                    <img src="@item.CourseImage" class="card-img-top" alt="@item.CourseImage" width="210px" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.CourseName</h5>
+                        <p class="card-text">@item.CourseLevel</p>
+                        <div>
+                            <a href="/Courses/Details/ @item.Id" class="btn btn-primary btn-color stretched-link">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</table>

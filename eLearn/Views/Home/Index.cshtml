@@ -1,0 +1,26 @@
+﻿@{
+    var Categories = (List<Category>)ViewData["Categories"];
+    Layout = "_LayoutDesign";
+}
+
+
+
+<table class="table table-striped table-hover">
+    <div class="container" style="padding-left:250px !important;">
+        <div class="row" style=" margin-top: 30px;">
+
+            @foreach (var item in Categories)
+            {
+
+                <div class="card col-4" style="width: 18rem;">
+                    <img src="@item.CategoryImage" class="card-img-top" alt="@item.CategoryImage" width="210px" height="240px">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.CategoryName</h5>
+                        <p class="card-text">@item.CategoryDescription</p>
+                    </div>
+                </div>
+            }
+            <a href="/Courses/" class="btn btn-primary btn-color stretched-link">More</a>
+        </div>
+    </div>
+</table>
