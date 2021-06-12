@@ -1,0 +1,26 @@
+﻿@{ 
+    var users = (List<UserModel>)ViewData["users"];
+}
+<section class="h-72 my-auto w-screen pt-16">
+    <div class="flex justify-around transform rotate-2 scale-110 w-screen text-lg py-1 mt-4 font-sans font-semibold uppercase mb-16" style="background-color: #f0ec2b ">
+        <div>
+            <h1>Bloggers</h1>
+        </div>
+        <div>
+            <h1>Bloggers</h1>
+        </div>
+        <div>
+            <h1>Bloggers</h1>
+        </div>
+    </div>
+</section>
+<div>
+    @foreach(var u in users)
+            {
+                <div class="w-3/4 m-auto my-8">
+                    <div class="rounded-full h-16 w-16 bg-gray-800" style="background-image:@u.Picture"></div>
+                    <h1 class="text-2xl">@u.Username</h1>
+                    <h4 class="text-lg">@u.Email</h4>
+                </div>
+            }
+</div>

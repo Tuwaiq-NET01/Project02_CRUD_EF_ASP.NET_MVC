@@ -3,43 +3,73 @@
     var article = (ArticleModel)ViewData["article"];
     var comments = (List<CommentModel>)ViewData["comments"];
 }
-<h1>@article.Title</h1>
-<div>
-    written by: @article.UserId
-    <img src="@article.Image"/>
-    <p>
-        @article.HTMLContent
-    </p>
-    <a href="~/article/edit/@article.Id">Edit</a>
-    <form asp-action="Delete" method="post" asp-route-id="@article.Id">
-        <input type="submit" value="Delete" />
-    </form>
+<section class="h-72 my-auto w-screen pt-16">
+    <div class="flex justify-around transform rotate-2 scale-110 w-screen text-lg py-1 mt-4 font-sans font-semibold uppercase mb-16" style="background-color: #f0ec2b ">
+        <div>
+            <h1>@article.Title</h1>
+        </div>
+        <div>
+            <h1>@article.Title</h1>
+        </div>
+        <div>
+            <h1>@article.Title</h1>
+        </div>
+    </div>
+</section>
+<section class="w-3/4 m-auto">
+    <div class="grid grid-cols-3">
+        <div class="col-span-2">
+            <span class="text-gray-800 text-sm italic">written by: @article.UserId </span> 
+            <h1 class="text-3xl mb-2 w-5/6 leading-relaxed">@article.Title</h1>
+            <div style="background-image:url(@article.Image); height: 400px;"
+                 class="bg-center bg-cover bg-no-repeat w-1/2"></div>
+            <p class="font-sans leading-relaxed text-lg w-5/6">
+                @article.HTMLContent
+            </p>
+        </div>
 
-</div>
-<hr />
-<h1>Comments</h1>
-
-<div class="grid grid-cols-3 gap-4 p-4">
-    <div class="col-span-2">
-        @foreach (var c in comments)
-        {
-            <div class="p-2 border border-black mb-4">
-                @c.Date
-                <p>
-                    @c.Content
-                </p>
-                <form asp-controller="Comments" asp-action="Delete" asp-route-id="@c.Id">
-                    <input type="submit" value="X" />
+        <div class="mt-16">
+            <h1 class="text-2xl mt-4">Edit post</h1>
+            <hr />
+            <div class="flex justify-evenly font-sans uppercase mt-4">
+                <form asp-action="Delete" method="post" asp-route-id="@article.Id">
+                    <input style="background-color: #f0ec2b " class="py-1 px-8  hover:font-semibold" type="submit" value="DELETE" />
                 </form>
+                <a style="background-color: #f0ec2b " class="ml-2 py-1 px-8 hover:font-semibold" href="~/article/edit/@article.Id">Edit</a>
             </div>
-        }
+            <div>
+                <h1 class="text-2xl mt-4">Comments</h1>
+                <hr />
+                <div>
+                    @foreach (var c in comments)
+                    {
+                        <div class="p-2 bg-gray-200 rounded-lg mt-4">
+                            <div class="flex justify-between">
+                                <span class="text-gray-800 text-sm italic">@c.Date</span>
+                                <form asp-controller="Comments" asp-action="Delete" asp-route-id="@c.Id">
+                                    <input style="background-color: #f0ec2b " class="font-sans font-bold px-1 rounded-full" type="submit" value="X" />
+                                </form>
+                            </div>
+                            <p class="text-2xl">
+                                @c.Content
+                            </p>
+                 
+                        </div>
+                    }
+                </div>
+                <div class=" p-4 bg-gray-100 mt-4 rounded">
+                    <form asp-controller="Comments" asp-action="Create" asp-route-id="@article.Id">
+                        <label asp-for="Content">Add comment</label>
+                        <br />
+                        <textarea class="border border-black rounded-md p-2" asp-for="Content" cols="35" rows="3"></textarea>
+                        <input style="background-color: #f0ec2b " class="py-1 px-8 font-sans uppercase hover:font-semibold" type="submit" value="Add comment" />
+                    </form>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div>
-        <form asp-controller="Comments" asp-action="Create" asp-route-id="@article.Id">
-            <label asp-for="Content">Comment</label>
-            <textarea asp-for="Content" cols="25" rows="3" class="border border-black"></textarea>
-            <input type="submit" value="Add comment" />
-        </form>
-    </div>
+</section>
+<div>
 
 </div>

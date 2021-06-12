@@ -148,3 +148,4 @@ C:\Users\SAFCSP\Desktop\hanan\projects\Project03_CRUD_With_ASP.NET_MVC\blog\WebA
 C:\Users\SAFCSP\Desktop\hanan\projects\Project03_CRUD_With_ASP.NET_MVC\blog\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
 C:\Users\SAFCSP\Desktop\hanan\projects\Project03_CRUD_With_ASP.NET_MVC\blog\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
 C:\Users\SAFCSP\Desktop\hanan\projects\Project03_CRUD_With_ASP.NET_MVC\blog\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+C:\Users\SAFCSP\Desktop\hanan\projects\Project03_CRUD_With_ASP.NET_MVC\blog\WebApplication1\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs

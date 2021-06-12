@@ -1,12 +1,55 @@
 ﻿@{ 
     var user = (UserModel)ViewData["user"];
 }
-<div class="border-b border-black p-1">
-    <h4>@user.Username</h4>
-</div>
-<section class="text-center bg-gray-100">
-    <h1>home page</h1>
+
+<section class="text-center text-6xl font-bold h-screen">
+    <div class="w-1/4 m-auto mt-32 mb-16">True Crime Blog</div>
+
+    <div class="flex justify-around transform rotate-6 scale-110 ml-2 w-screen text-lg py-1 mt-4 font-sans uppercase" style="background-color: #e6e217 ">
+        <div>
+            caution
+        </div>
+        <div>
+            caution
+        </div>
+        <div>
+            caution
+        </div>
+    </div>
+    <div class="flex justify-around transform -rotate-12 scale-110 w-screen text-lg py-1 mt-4 font-sans uppercase" style="background-color: #f0ec2b ">
+        <div>
+            caution
+        </div>
+        <div>
+            caution
+        </div>
+        <div>
+            caution
+        </div>
+    </div>
 </section>
-<section class="bg-gray-200">
-    <a href="/article">Read articles >></a>
-</section>
+    <section class="-mt-8">
+        <div class="grid grid-cols-2 w-3/4 m-auto">
+            <div class="text-center leading-relaxed text-2xl my-auto w-2/3 m-auto">
+                <h3 class="text-left font-semibold text-4xl">About us</h3>
+                <span class="ml-4">
+                    In an uncertain world there is one stark certainty.  Crime.  It is the reality we cannot escape, the salt of life that both fascinates and terrifies.
+                </span>
+            </div>
+                <div class="clip-image">
+                    
+                    <img style="clip-path: inset(18% 8% 2% 21%); " 
+                         src="https://images.unsplash.com/photo-1453873531674-2151bcd01707?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80"/>
+                    <img style="clip-path: inset(0 3% 35% 31%); "
+                         src="https://www.indianfolk.com/wp-content/uploads/2018/08/crime.jpg" />
+                </div>
+        </div>
+        <div class="text-2xl m-auto text-center -mt-16">
+            <div class="flex justify-around hover:font-bold transform rotate-2 scale-110 w-screen text-lg py-1 mt-4 font-sans font-semibold uppercase mb-16" style="background-color: #f0ec2b ">
+                <div>
+                    <a href="/article">Read articles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+

@@ -1,24 +1,46 @@
 ﻿@{ 
     var articles = (List<ArticleModel>)ViewData["articles"];
 }
-<section>
-    <h1>Articles</h1>
+<section class="h-72 my-auto w-screen pt-16">
+    <div class="flex justify-around transform -rotate-2 scale-110 w-screen text-lg py-1 mt-4 font-sans font-semibold uppercase mb-16" style="background-color: #f0ec2b ">
+        <div>
+            <h1>Articles</h1>
+        </div>
+        <div>
+            <h1>Articles</h1>
+        </div>
+        <div>
+            <h1>Articles</h1>
+        </div>
+    </div>
 </section>
-<div class="p-4 bg-gray-50 grid grid-cols-3">
-    <div class="col-span-2">
-        @foreach(var a in articles)
-            {
-                <div class="p-4 border border-black text-lg">
-                    <h1>@a.Title</h1>  
-                    @a.Date
-                    @a.UserId
-                    <img src="@a.Image"/>
-                    <p>@a.HTMLContent</p>
-                    <a href="article/details/@a.Id">Read more >></a>
-                </div>
-            }
+<section class="w-3/4 m-auto">
+    <div class="py-1 border-b border-black mb-4">Number of articles: @articles.Count()</div>
+
+    <div class="grid grid-cols-5 gap-4">
+        <div class="col-span-4">
+            <div class="grid grid-cols-2 gap-4">
+
+                @foreach (var a in articles)
+                {
+                    <div class="border border-black text-lg w-5/6 m-auto">
+                        <div style="background-image:url(@a.Image); height: 300px;"
+                             class="bg-center bg-cover bg-no-repeat w-full"></div>
+                        <div class="p-2">
+                            <div class="flex justify-between mb-4">
+                                <div>@a.Title</div>
+                                <div class="text-gray-700 text-sm italic">@a.Date</div>
+                            </div>
+                            <div class="py-1 text-center font-sans font-semibold uppercase" style="background-color: #f0ec2b ">
+                                <a href="article/details/@a.Id">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="font-sans font-semibold text-lg">
+            <a style="background-color: #f0ec2b " class="fixed w-full py-1 pl-2 hover:font-semibold" href="article/create">Create an Article</a>
+        </div>
     </div>
-    <div>
-        <a href="article/create">Create an Article</a>
-    </div>
-</div>
+</section>

@@ -4,25 +4,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - home</title>
-    <link href="https://unpkg.com/tailwindcss@@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://unpkg.com/tailwindcss@@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <header class="border-b border-black p-4 text-lg">
-        <nav>
-            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            <a asp-area="" asp-controller="Article" asp-action="Index">Articles</a>
+    
+<body style="font-family: 'Playfair Display', serif; overflow-x: hidden" class="bg-gray-50">
+    <canvas id="noise" class="z-100 absolute top-0 left-0 w-full h-screen overflow-hidden" style="pointer-events:none; opacity:0.03"></canvas>
+    <header class="border-b border-black p-2 text-lg bg-black">
+        <nav class="flex justify-around serif w-1/2 m-auto text-white font-sans">
+            <a class="hover:underline" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="hover:underline" asp-area="" asp-controller="Article" asp-action="Index">Articles</a>
+            <a class="hover:underline" asp-area="" asp-controller="User" asp-action="Index">Bloggers</a>
         </nav>
     </header>
+
     <div>
         <main role="main">
             @RenderBody()
         </main>
-    </div>
 
-    <footer class="bottom border-t border-black mt-2">
-          footer
+    </div>
+    <footer class="bottom border-t border-black mt-2 p-2 text-lg">
+        2021 - True crime blog
+
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

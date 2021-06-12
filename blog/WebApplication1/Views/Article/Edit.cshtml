@@ -1,20 +1,49 @@
 ﻿@model ArticleModel
-@{ 
+@{
     var article = (ArticleModel)ViewData["article"];
 }
-<h1>Edit</h1>
-@article.Title
-<div>
-    <form asp-action="Edit" method="post">
-        <input type="hidden" asp-for="Id" />
-        <label asp-for="Title">Title:</label>
-        <input asp-for="Title" type="text" />
-        <label asp-for="Image">Image URL:</label>
-        <input asp-for="Image" type="text" />
-        <br />
-        <label asp-for="HTMLContent">Content:</label>
-        <textarea asp-for="HTMLContent" class="border border-b lack" rows="10" cols="50"></textarea>
-        <br />
-        <input type="submit" value="Edit post" />
-    </form>
-</div>
+<section class="h-72 my-auto w-screen pt-16">
+    <div class="flex justify-around transform rotate-2 scale-110 w-screen text-lg py-1 mt-4 font-sans font-semibold uppercase mb-16" style="background-color: #f0ec2b ">
+        <div>
+            <h1>Edit an article</h1>
+        </div>
+        <div>
+            <h1>Edit an article</h1>
+        </div>
+        <div>
+            <h1>Edit an article</h1>
+        </div>
+    </div>
+</section>
+
+<section class="w-3/4 m-auto">
+    <div class="p-2 leading-loose">
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="grid grid-cols-3">
+
+                <div class="col-span-2">
+                    <div>
+                        <label asp-for="Title">Title:</label>
+                        <input class="border-b border-black" asp-for="Title" type="text" />
+                    </div>
+                    <div>
+                        <label asp-for="Image">Image URL:</label>
+                        <input class="border-b border-black" asp-for="Image" type="text" />
+                    </div>
+                    <div>
+                        <label asp-for="HTMLContent">Content:</label>
+                        <br />
+                        <textarea class="border border-black rounded-md p-2" asp-for="HTMLContent" rows="12" cols="60"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input style="background-color: #f0ec2b" class="fixed w-1/2 py-1 pl-2 font-sans uppercase font-semibold" type="submit" value="Edit post" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+</section>
+<section>
+</section>
