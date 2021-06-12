@@ -1,0 +1,90 @@
+@{
+    ViewData["Title"] = "Todo Items";
+    int counter = 1;
+
+}
+
+
+
+<div class="text-center text-light">
+    <h1 class="display-4">Get Work Done
+        <i class="bi bi-calendar-check" style="font-size: 3rem; color: white;"></i>
+    </h1>
+</div>
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <td scope="col">#</td>
+            <td scope="col">Name</td>
+            <td scope="col">ItemCategory</td>
+            <td scope="col">Actions</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        @* For each item, add a row *@
+        @if (ViewData["items"] != null && ((TodoItem[])ViewData["items"]).Length > 0)
+        {
+            foreach (TodoItem item in (TodoItem[])ViewData["items"])
+            {
+                <tr>
+                    <td>@counter</td>
+                    @{
+                        counter++;
+                    }
+                    <td>@item.Name</td>
+                    <td>
+                        @if (item.What)
+                        {
+                            <span>What</span> <i class="bi bi-question-diamond"></i><br>
+                        }
+                        @if (item.Why)
+                        {
+                            <span>Why</span> <i class="bi bi-x-diamond"></i><br>
+                        }
+                        @if (item.When)
+                        {
+                            <span>When</span> <i class="bi bi-clock"></i><br>
+                        }
+                        @if (item.Where)
+                        {
+                            <span>Where</span> <i class="bi bi-pin-map"></i><br>
+                        }
+                        @if (item.How)
+                        {
+                            <span>How</span> <i class="bi bi-gear"></i><br>
+                        }
+
+                    </td>
+                    <td>
+                        <a href="/TodoItems/Read/@item.Id"><button type="button" class="btn btn-primary">Info</button></a>
+                        <a href="/TodoItems/Edit/@item.Id"><button type="button" class="btn btn-secondary">Edit</button></a>
+                        <a href="/TodoItems/Delete/@item.Id"><button type="submit" class="btn btn-danger">Delete</button></a>
+                    </td>
+                </tr>
+            }
+        }
+        @* Last Row (New Items) *@
+        <form action="/TodoItems/Create" id="newItemForm" method="post">
+            <tr>
+                <td style="vertical-align: middle;">@counter</td>
+                <td style="vertical-align: middle;">
+                    <input style="width: 100%; height: 100%;" name="Name" class="form-control form-control-lg"
+                        type="text">
+                </td>
+                <td>
+                    <input type="checkbox" name="What" value="true"> What <i
+                        class="bi bi-question-diamond"></i></input><br>
+                    <input type="checkbox" name="Why" value="true"> Why <i class="bi bi-x-diamond"></i></input><br>
+                    <input type="checkbox" name="Where" value="true"> Where <i class="bi bi-pin-map"></i></input><br>
+                    <input type="checkbox" name="When" value="true"> When <i class="bi bi-clock"></i></input><br>
+                    <input type="checkbox" name="How" value="true"> How <i class="bi bi-gear"></i></input><br>
+                </td>
+                <td style="vertical-align: middle;">
+                    <button type="submit" class="btn btn-success ">Add</button>
+                </td>
+            </tr>
+        </form>
+    </tbody>
+</table>

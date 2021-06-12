@@ -1,0 +1,41 @@
+@{
+    TodoItem Item = null;
+    var ItemEnumerable = (IQueryable<TodoItem>)ViewData["item"];
+    if (ItemEnumerable != null && ItemEnumerable.Count<TodoItem>() > 0)
+        Item = ItemEnumerable.ToArray()[0];
+}
+
+@if (Item == null)
+{
+    <h1 class="text-light">
+    No such item
+</h1>
+    <p class="text-light">Make sure you searched for the correct item ID.</p>
+}
+else
+{
+    <h1 class="text-light"> <strong>Item: </strong> @Item.Name</h1>
+    <br>
+    <h4 class="text-light">
+    @if (Item.What)
+        {
+            <span>What</span> <i class="bi bi-question-diamond"></i><br>
+        }
+        @if (Item.Why)
+        {
+            <span>Why</span> <i class="bi bi-x-diamond"></i><br>
+        }
+        @if (Item.When)
+        {
+            <span>When</span> <i class="bi bi-clock"></i><br>
+        }
+        @if (Item.Where)
+        {
+            <span>Where</span> <i class="bi bi-pin-map"></i><br>
+        }
+        @if (Item.How)
+        {
+            <span>How</span> <i class="bi bi-gear"></i><br>
+        }
+    </h4>
+}

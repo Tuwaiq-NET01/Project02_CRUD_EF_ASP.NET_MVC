@@ -1,0 +1,81 @@
+@{
+    TodoItem Item = null;
+    var ItemEnumerable = (IQueryable<TodoItem>)ViewData["item"];
+    if (ItemEnumerable != null && ItemEnumerable.Count<TodoItem>() > 0)
+        Item = ItemEnumerable.ToArray()[0];
+}
+
+@if (Item == null)
+{
+    <h1 class="text-light">
+    No such item
+</h1>
+    <p class="text-light">Make sure you entered for the correct item ID.</p>
+}
+else
+{
+    <form action="/TodoItems/Update" method="POST">
+    <input type="hidden" name="Id" value=@Item.Id>
+    <h1 class="text-light">
+        <strong>Item: </strong>
+        <input style="width: 100%; height: 100%;" name="Name" class="form-control form-control-lg" type="text"
+            value=@Item.Name />
+    </h1>
+    <br>
+    <div class="m-5 d-flex justify-content-center">
+
+        <h4 class="text-light">
+            @if (Item.What)
+                {
+                    <input type="checkbox" name="What" value="true" checked>
+                }
+                else
+                {
+                    <input type="checkbox" name="What" value="true">
+                }
+                What <i class="bi bi-question-diamond" style="padding-right: 5rem;"></i>
+                @if (Item.Why)
+                {
+                    <input type="checkbox" name="Why" value="true" checked>
+                }
+                else
+                {
+                    <input type="checkbox" name="Why" value="true">
+                }
+                Why <i class="bi bi-x-diamond" style="padding-right: 5rem;"></i>
+                @if (Item.Where)
+                {
+                    <input type="checkbox" name="Where" value="true" checked>
+                }
+                else
+                {
+                    <input type="checkbox" name="Where" value="true">
+                }
+                Where <i class="bi bi-pin-map" style="padding-right: 5rem;"></i>
+                @if (Item.When)
+                {
+                    <input type="checkbox" name="When" value="true" checked>
+                }
+                else
+                {
+                    <input type="checkbox" name="When" value="true">
+                }
+                When <i class="bi bi-clock" style="padding-right: 5rem;"></i>
+                @if (Item.How)
+                {
+                    <input type="checkbox" name="How" value="true" checked>
+                }
+                else
+                {
+                    <input type="checkbox" name="How" value="true">
+                }
+                How <i class="bi bi-gear" style="padding-right: 5rem;"></i>
+            </h4>
+        </div>
+
+        <div class="m-5 d-flex justify-content-center">
+            <button type="submit" class="btn btn-lg btn-success mx-5">Submit</button>
+            <a href="/TodoItems"><button class="btn btn-lg btn-secondary mx-5">Cancel</button></a>
+        </div>
+    </form>
+}
