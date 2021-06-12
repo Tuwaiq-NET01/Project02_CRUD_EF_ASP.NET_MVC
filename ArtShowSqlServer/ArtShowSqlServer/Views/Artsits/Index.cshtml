@@ -1,0 +1,39 @@
+﻿@{
+
+    var artsits = (List<ArtsitsModel>)ViewData["Artists"];
+    Layout = "~/Views/Shared/_layoutArtsit.cshtml";
+}
+
+<div class="container px-4 px-lg-5 " style="padding:30px ">
+    <div class="content-section-heading text-center">
+        <br />
+        <h1 class="mb-5"> Artsits</h1>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col"> Name</th>
+                <th scope="col">Phone Number</th>
+                <td> </td>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var art in artsits)
+            {
+                <tr scope="row">
+                    <td>@art.Id</td>
+                    <td>@art.Name</td>
+                    <td>@art.NumberPhone</td>
+                    <td>
+                        <a href="/Artsits/Details/@art.Id"> <button type="button" class="btn btn-info"> Show art works </button></a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+
+    </table>
+
+</div>

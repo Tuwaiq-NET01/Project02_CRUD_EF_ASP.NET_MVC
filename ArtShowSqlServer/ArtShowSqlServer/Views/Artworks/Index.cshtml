@@ -1,0 +1,29 @@
+﻿@{
+
+    var ArtWorks = (List<ArtWorksModel>)ViewData["ArtWorks"];
+}
+<div class="content-section-heading text-center">
+    <br />
+
+    <h1 class="mb-5" style="text-shadow: 2px 2px #000000;">Art Works</h1>
+</div>
+<div class="container px-4 px-lg-5 ">
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var art in ArtWorks)
+        {
+            <div class="col" style="padding-bottom:30px">
+                <div class="card"
+                     style="width: 25rem; box-shadow: 5px 10px 18px #000000; 
+                        background-color: rgb(0,0,0,0.5); align-items: center; ">
+                    <div class="card-body" style="align-items:center">
+                        <a class="portfolio-item" href="/Artworks/Details/@art.Id">
+                            <img class="card-img-top" style="width:250px; height:250px;" src="@art.Image" alt="@art.Image" />
+                            <div style="color:white; font-size:20px; text-align:center"> @art.Title</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
