@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Movies";
+    var movies = (List<MovieModel>) @ViewData["Movies"];
+}
+
+<div class="row d-flex justify-content-around">
+    @{
+        foreach (var movie in movies)
+        {
+            <a class='card__link' href="/Home/details/@movie.id">
+                <div class="card__body col-lg-3 col-md-4 col-sm-6">
+                    <div class="movie-card">
+                        <div class="rate">
+                            <span class="badge badge-pill @((movie.vote_average) >= 7.5 ? "badge-success" : @movie.vote_average >= 5.5 ? "badge-warning" : "badge-danger")">@movie.vote_average</span>
+                        </div>
+                        <div class="img-card">
+                            <img class="poster-img" src="https://image.tmdb.org/t/p/w500/@movie.poster_path" alt="@movie.title">
+                        </div>
+                        <div class="details">
+                            <p>@movie.title</p>
+                            <p>Release Date: @movie.release_date</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        }
+    }
+</div>

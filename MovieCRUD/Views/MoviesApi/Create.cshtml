@@ -1,0 +1,59 @@
+﻿@model MovieModel
+
+<style>
+    .form-label{
+    display: block;
+    }
+    form>* {
+    max-width: 500px;
+    }
+</style>
+
+<form asp-action="create" method="post" class="text-white">
+    <div class="mb-3">
+        <label asp-for="id" class="form-label">Movie ID</label>
+        <input asp-for="id" class="form-control" placeholder="ex: 1">
+        <span asp-validation-for="id"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="title" class="form-label">Movie Title</label>
+        <input asp-for="title" class="form-control" placeholder="ex: Interstellar">
+        <span asp-validation-for="title"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="overview" class="form-label">Movie Ovreview</label>
+        <textarea  asp-for="overview" class="form-control" placeholder="ex: In Earth's future, a global crop blight and second Dust Bowl are slowly..."></textarea>
+        <span asp-validation-for="overview"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="poster_path" class="form-label">Movie Poster</label>
+        <input asp-for="poster_path" class="form-control" placeholder="ex: /gEU2QniE6E77NI6lCU6MxlNBvIx.jpg">
+        <span asp-validation-for="poster_path"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="vote_average" class="form-label">Movie Rating</label>
+        <input asp-for="vote_average" class="form-control" placeholder="ex: 10">
+        <span asp-validation-for="vote_average"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="runtime" class="form-label">Movie Runtime</label>
+        <input asp-for="runtime" class="form-control" placeholder="ex: 168">
+        <span asp-validation-for="runtime"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="imdb_id" class="form-label">Movie IMDB_ID</label>
+        <input asp-for="imdb_id" class="form-control" placeholder="ex: /tt0816692">
+        <span asp-validation-for="imdb_id"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="release_date" class="form-label">Movie Relase Date</label>
+        <input asp-for="release_date" class="form-control" placeholder="ex: 2014-11-07">
+        <span asp-validation-for="release_date"></span>
+    </div>
+    <div class="mb-3 form-group">
+        <label asp-for="backdrop_path" class="form-label">Movie Backdrop Image</label>
+        <input asp-for="backdrop_path" class="form-control" placeholder="ex: /rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg">
+        <span asp-validation-for="backdrop_path"></span>
+    </div>
+    <button class="btn btn-block btn-primary" type="submit">Add</button>
+</form>

@@ -1,0 +1,77 @@
+﻿@{
+    var reviews = (List<ReviewModel>) @ViewData["Review"];
+    var movie = (MovieModel) @ViewData["Movie"];
+}
+
+<style>
+    .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    }
+</style>
+
+@{
+    <div class="selected-movie-card">
+        <div class="selected-movie-container">
+            <div class="poster-container">
+                <div class="img-card">
+                    <img class="picked-movie" src="https://image.tmdb.org/t/p/w500/@movie.poster_path" alt="@movie.title">
+                </div>
+                <div class="selected-rate">
+                    <span class="badge badge-pill @((movie.vote_average) >= 7.5 ? "badge-success" : @movie.vote_average >= 5.5 ? "badge-warning" : "badge-danger")">@movie.vote_average</span>
+                </div>
+            </div>
+            <div class="selected-movie-details">
+                <h1>@movie.title</h1>
+                <div class="movie-details-text">
+                    <p>
+                        <i class="fas fa-clock mr-1"></i>
+                        @movie.runtime Minute
+                        <i class="fas fa-ellipsis-v"></i>
+                    </p>
+                    <p>
+                        <i class="fas fa-calendar-alt mr-1"></i>
+                        @movie.release_date
+                        <i class="fas fa-ellipsis-v"></i>
+                    </p>
+                    <a href="https://www.imdb.com/title/@movie.imdb_id" target="_blank">
+                        <i class="fab fa-imdb fa-lg"></i>
+                        IMDB : @movie.title
+                    </a>
+                </div>
+                <p>@movie.overview</p>
+                <div class="blur-bg" style="background-image: url(https://image.tmdb.org/t/p/w500/@movie.backdrop_path);"></div>
+                <div class="buttons">
+                    <a asp-controller="MoviesApi" asp-action="Edit" asp-route-id="@movie.id">
+                        <button class="btn btn-info">
+                            Update Movie
+                        </button>
+                    </a>
+                    <form asp-action="Delete" asp-controller="MoviesApi" asp-route-id="@movie.id" method="post">
+                        <button class="btn btn-danger" type="submit"> Delete Movie </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="reviews mt-5">
+            <h1>Reviews:</h1>
+            @if (reviews.Count > 0)
+            {
+                foreach (var review in reviews)
+                {
+                    <div class="d-flex flex-row justify-content-between mt-3">
+                        <h3>@review.Comment</h3>
+                        <h3 class="@((review.Rating) >= 7.5 ? "text-success" : @review.Rating >= 5.5 ? "text-warning" : "text-danger")">@review.Rating</h3>
+                    </div>
+                }
+            }
+            else
+            {
+                <h1 class="text-warning">No Reviews By Users yet</h1>
+            }
+        </div>
+    </div>
+}
