@@ -1,3 +1,4 @@
+import {BsFillStarFill} from 'react-icons/bs';
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import GameForm from "./GameForm";
@@ -34,17 +35,26 @@ export default function GameDetail(props) {
 
 
   const editGame = (game) => {
-      console.log('EDIT SECTION: ', game);
+    
 
       axios.put(`https://localhost:44384/api/games/${props.match.params.id}`, game)
 .then(res => {
   console.log(res)
+  setGame(res.data)
+  editStatus();
 })
 .catch(err => {
   console.error(err); 
 })
 
   }
+
+
+  let stars = []
+  for (let i = 0; i < game.rating; i++) {
+      stars.push(<BsFillStarFill className="mx-1" />)
+  }
+
 
   return (
     <div className="container mt-3">
@@ -79,8 +89,13 @@ export default function GameDetail(props) {
     
     : 
     <> 
-  <h1>{game.gameName}</h1>
-    <br />
+
+    <div className="d-flex justify-content-between">
+  <h1 className="mb-4">{game.gameName}</h1>
+
+    <h1> {stars}</h1>
+{/* <h1 style={{color: 'yellow'}} > <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> </h1> */}
+    </div>
 
     <p>{game.description}</p>
     

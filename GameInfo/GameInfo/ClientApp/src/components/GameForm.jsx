@@ -68,7 +68,7 @@ props.setGame(game)
 </div>
 
 <div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="1" id="flexRadioDefault1" onChange={(e)=> setRating(e.target.value)} checked/>
+<input class="form-check-input" type="radio" name="ratingRadio" value="1" id="flexRadioDefault1" onChange={(e)=> setRating(e.target.value)}/>
 <label class="form-check-label" for="flexRadioDefault1">
 <BsFillStarFill />
 </label>
@@ -105,7 +105,7 @@ props.setGame(game)
 { props.mode=="edit" ?     
 <div className="d-flex justify-content-end">
 
-<button type='submit' className="btn btn-primary me-2" onClick={editGame}>
+<button type='button' className="btn btn-primary me-2" onClick={editGame}>
     UPDATE!
 </button>
 <button className="btn btn-danger" onClick={props.editStatus}> CANCEL </button>

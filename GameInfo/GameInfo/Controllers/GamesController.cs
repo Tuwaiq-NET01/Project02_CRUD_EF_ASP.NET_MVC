@@ -66,6 +66,7 @@ namespace GameInfo.Controllers
             targetGame.GameName = game.GameName;
             targetGame.Image = game.Image;
             targetGame.Description = game.Description;
+            targetGame.Rating = game.Rating;
 
             _context.Games.Update(targetGame);
             _context.SaveChanges();
