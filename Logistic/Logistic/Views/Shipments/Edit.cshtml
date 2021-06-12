@@ -1,0 +1,41 @@
+﻿@model Logistic.Models.Shipment
+
+@{
+    ViewData["Title"] = "Edit";
+    var shipment = (Shipment)ViewData["shipment"];
+
+}
+
+<h1 class="text-info">Edit Shipment</h1>
+<hr />
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="DateOfDelivery" class="control-label text-info"></label>
+        <input asp-for="DateOfDelivery" value=@shipment.DateOfDelivery class="form-control" />
+        <span asp-validation-for="DateOfDelivery" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LocationOfDelivery" class="control-label text-info"></label>
+        <input asp-for="LocationOfDelivery" value=@shipment.LocationOfDelivery class="form-control" />
+        <span asp-validation-for="LocationOfDelivery" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CustomerId" class="control-label text-info"></label>
+        <input asp-for="CustomerId" value=@shipment.CustomerId class="form-control" />
+        <span asp-validation-for="CustomerId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductId" class="control-label text-info"></label>
+        <input asp-for="ProductId" value=@shipment.ProductId class="form-control" />
+        <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary form-control" />
+    </div>
+</form>
+
+<div>
+    <a class="btn btn-success form-control" asp-action="Index">Back to List</a>
+</div>

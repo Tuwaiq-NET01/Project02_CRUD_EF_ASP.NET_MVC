@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Details";
+    var shipment = (Shipment)ViewData["shipment"];
+
+
+}
+
+<h1 class="text-info">Shipment Detail</h1>
+
+@if (shipment != null)
+{
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th>DateOfDelivery</th>
+                <th>LocationOfDelivery</th>
+                <th>CustomerId</th>
+                <th>ProductId</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@shipment.DateOfDelivery</td>
+                <td>@shipment.LocationOfDelivery</td>
+                <td>@shipment.CustomerId</td>
+                <td>@shipment.ProductId</td>
+            </tr>
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>Data not found</h1>
+}
+<div>
+    <a class="btn btn-primary form-control" asp-action="Edit" asp-route-id="@shipment.Id">Edit</a>
+    <br />
+    <br />
+    <a class="btn btn-success form-control" asp-action="Index">Back to List</a>
+</div>

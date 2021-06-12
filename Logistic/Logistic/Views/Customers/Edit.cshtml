@@ -1,0 +1,41 @@
+﻿@model Logistic.Models.Customer
+
+@{
+    ViewData["Title"] = "Edit";
+    var customer = (Customer)ViewData["customer"];
+
+}
+
+<h1 class="text-info">Edit Customer</h1>
+<hr />
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label text-info"></label>
+        <input asp-for="FirstName" value=@customer.FirstName class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label text-info"></label>
+        <input asp-for="LastName" value=@customer.LastName class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label text-info"></label>
+        <input asp-for="Email" value=@customer.Email class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address" class="control-label text-info"></label>
+        <input asp-for="Address" value=@customer.Address class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary form-control" />
+    </div>
+</form>
+
+<div>
+    <a class="btn btn-success form-control" asp-action="Index">Back to List</a>
+</div>
