@@ -39,8 +39,6 @@ export default function GameForm(props) {
                 description: gameDesc,
                 rating: rating
             }
-console.log("channnggg");
-
 props.setGame(game)
         }
 
@@ -102,7 +100,7 @@ props.setGame(game)
 
 
 
-</form>
+
 
 { props.mode=="edit" ?     
 <div className="d-flex justify-content-end">
@@ -112,6 +110,10 @@ props.setGame(game)
 </button>
 <button className="btn btn-danger" onClick={props.editStatus}> CANCEL </button>
 </div> : null }
+
+</form>
+
+
 
 
         </div>

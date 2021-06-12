@@ -52,13 +52,11 @@ export default function GameDetail(props) {
       
 
       <div class="row">
-    <div class="col-lg-4">
+    <div class="col-sm-4">
         <img src={game.image} alt="game image" width="350px" />
     </div>
     <div class="col-8">
 
-        <br />
-    
     {editMode ? 
     <div> 
 
@@ -80,9 +78,8 @@ export default function GameDetail(props) {
     </div>
     
     : 
-    
-    
-    <div>   <h1>{game.gameName}</h1>
+    <> 
+  <h1>{game.gameName}</h1>
     <br />
 
     <p>{game.description}</p>
@@ -90,7 +87,8 @@ export default function GameDetail(props) {
 
     
 
-    <div className="d-flex justify-content-end">
+
+
 
 <button className="btn btn-secondary me-2" onClick={props.history.goBack}>
     GO BACK
@@ -98,10 +96,7 @@ export default function GameDetail(props) {
 <button className="btn btn-warning" onClick={editStatus}>
     EDIT
 </button>
-</div>
-
-
-    </div> }
+    </> }
 
       
 

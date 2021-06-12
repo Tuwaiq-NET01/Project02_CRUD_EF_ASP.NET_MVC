@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
-import {BsFillStarFill} from 'react-icons/bs';
 import DisplayGames from './DisplayGames';
 import GameForm from './GameForm';
 
@@ -13,7 +12,6 @@ export default function Games() {
     const [rating, setRating] = useState(1);
     const [loading, setLoading] = useState(true);
     const url = 'https://localhost:44384/api/games'
-
 
 useEffect(() => {
     axios.get(url)
@@ -77,7 +75,7 @@ const addGame  = () => {
     return (
         <div className="container">
 
-            <h1>GAMES COMP</h1>
+            <h1 className="display-4">All Games: </h1>
 
 
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -95,56 +93,6 @@ const addGame  = () => {
 
 <GameForm setGame={setGame} mode="new" />
 
-      {/* <form>
-
-
-<div class="mb-3">
-<label for="gameName" class="form-label">Game Name: </label>
-<input type="text" class="form-control" id="gameName" onChange={(e) => setGameName(e.target.value)} />
-</div>
-<div class="mb-3">
-<label for="gameImage" class="form-label">Game Image: </label>
-<input type="text" class="form-control" id="gameImage" onChange={(e) => setGameImage(e.target.value)} />
-</div>
-<div class="mb-3">
-<label for="gameDesc" class="form-label">Description: </label>
-<textarea class="form-control" id="gameDesc" rows="3" onChange={(e) => setGameDesc(e.target.value)}></textarea>
-</div>
-
-<div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="1" id="flexRadioDefault1" onChange={(e)=> setRating(e.target.value)} checked/>
-<label class="form-check-label" for="flexRadioDefault1">
-<BsFillStarFill />
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="2"  id="flexRadioDefault2" onChange={(e)=> setRating(e.target.value)} />
-<label class="form-check-label" for="flexRadioDefault2">
-<BsFillStarFill /> <BsFillStarFill />
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="3"  id="flexRadioDefault3" onChange={(e)=> setRating(e.target.value)} />
-<label class="form-check-label" for="flexRadioDefault3">
-<BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill />
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="4"  id="flexRadioDefault4" onChange={(e)=> setRating(e.target.value)} />
-<label class="form-check-label" for="flexRadioDefault4">
-<BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill />
-</label>
-</div>
-<div class="form-check">
-<input class="form-check-input" type="radio" name="ratingRadio" value="5"  id="flexRadioDefault5" onChange={(e)=> setRating(e.target.value)} />
-<label class="form-check-label" for="flexRadioDefault5">
-<BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill /> <BsFillStarFill />
-</label>
-</div>
-
-
-
-</form> */}
 
 
 </div>
