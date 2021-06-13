@@ -1,7 +1,7 @@
 # GameInfo
 
 ### PROJECT3: 
-GameInfo website with full CRUD operation. Built using: 
+GameInfo website with full CRUD operation (Codefirst appraoch). Built using: 
 - [x] ASP.NET Core 5 (with API)
 - [x] Entity Framework Core.
 - [x] MS SQL Server.
