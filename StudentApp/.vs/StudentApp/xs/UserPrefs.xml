@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{9DD53EE3-3DA9-476B-A03A-C7B033A50649}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentApp/Data/AppDbContext.cs">
+    <Files>
+      <File FileName="StudentApp/Startup.cs" IsPinned="True" />
+      <File FileName="StudentApp/ClientApp/src/components/CourseCard.js" Line="1" Column="1" IsPinned="True" />
+      <File FileName="StudentApp/Data/AppDbContext.cs" Line="47" Column="268" />
+      <File FileName="StudentApp/Controllers/QuestionController.cs" Line="1" Column="1" />
+      <File FileName="StudentApp/Controllers/StudentController.cs" Line="100" Column="27" />
+      <File FileName="StudentApp/Migrations/20210609102354_create_data_seeding.cs" />
+      <File FileName="StudentApp/Migrations/20210609104210_create_data_seeding1.cs" />
+      <File FileName="StudentApp/Models/Student.cs" Line="13" Column="33" />
+      <File FileName="StudentApp/Models/StudentCourse.cs" Line="4" Column="18" />
+      <File FileName="StudentApp/Models/Category.cs" Line="6" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentApp" expanded="True">
+            <Node name="StudentApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="AppDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.StudentApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
