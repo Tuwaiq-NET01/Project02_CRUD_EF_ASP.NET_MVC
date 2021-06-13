@@ -14,7 +14,21 @@
     - تطبيق وظيفة Create
     - تطبيق وظيفة  Read  
     - تطبيق وظيفة Update 
-    - تطبيق وظيفة Delete 
+    - تطبيق وظيفة Delete
+## الفكرة مختصرة
+- فكرة المشروع نظام حجز فنادق
+- ٢ controllers (hotels, rooms) + 2 tables/models (one for each Controller hotel/room) + CRUD for each model + 2 Views (Index, Details)
+ ## ERD of Hotel Reservation
+ <img width="621" alt="erd" src="https://user-images.githubusercontent.com/82481987/121792778-b2b25f80-cc01-11eb-937c-f3d5bfe5604e.png">
+
+
+## الخطوة التالي:
+انا اعتبر هذا المشروع تثبيت للمفاهيم وحجر اساس للمشروع النهائي
+### اسم المتدربة:
+اروى وان لا
+### المجموعة: الدرعية
+### المشرف:
+حاتم السلمان
 # إضافة | Bouns 
 - التعامل مع React في المشروع بأستخدام الـ API
 
