@@ -17,8 +17,8 @@
     - تطبيق وظيفة Delete 
 
 
-<img src="img/img1.png">
-<img src="img/img2.png">
+<img src="Img/img1.png"/>
+<img src="Img/img2.png"/>
 
 
 Taghreed Alqahtani 
