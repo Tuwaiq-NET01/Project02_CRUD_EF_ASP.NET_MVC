@@ -1,43 +1,4 @@
-﻿
 
-@*<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">BookId</th>
-            <th scope="col">Author</th>
-            <th scope="col">Title</th>
-            <th scope="col">Published</th>
-            <th scope="col">image</th>
-            <th scope="col">show</th>
-
-        </tr>
-
-    </thead>
-    <tbody>
-
-        @foreach (var Book in Books)
-        {
-            <tr>
-                <td scope "row">@Book.BookId</td>
-
-                <td>@Book.Author</td>
-                <td>
-                    @Book.Title
-                </td>
-                <td>@Book.Published</td>
-
-                <td>
-                    <img style="width:200px;height:200px;" src="@Book.image" alt="@Book.image" />
-                <td>
-                    <a href="/Book/details/@Book.BookId">
-                        <button type1=" button" class="btn btn-danger">show</button>
-                    </a>
-
-                <td />
-            </tr>
-        }
-    </tbody>
-</table>*@
 
 
 @{
