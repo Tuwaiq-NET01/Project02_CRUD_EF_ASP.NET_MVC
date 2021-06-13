@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Selected {
+  color: red;
+}
+
+h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-lg text-blue-600;
+}
+
+h3 {
+  @apply text-2xl text-blue-600;
+}
+
+p {
+}
+
+.category-modal {
+  @apply absolute top-1/3 left-1/3 bg-gray-50 border rounded shadow-2xl;
+}
