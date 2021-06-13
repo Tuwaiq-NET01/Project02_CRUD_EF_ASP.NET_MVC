@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hakam", "Hakam.csproj", "{57F68BAF-5DF3-4616-9693-A4E8765B1C77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57F68BAF-5DF3-4616-9693-A4E8765B1C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F68BAF-5DF3-4616-9693-A4E8765B1C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F68BAF-5DF3-4616-9693-A4E8765B1C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F68BAF-5DF3-4616-9693-A4E8765B1C77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A00BADE4-FD43-4334-BC04-A8511DD77B31}
+	EndGlobalSection
+EndGlobal
