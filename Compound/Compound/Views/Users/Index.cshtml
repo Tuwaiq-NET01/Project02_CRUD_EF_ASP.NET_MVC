@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    List<UserModel> User = (List<UserModel>)ViewData["Users"];
+    List<VilladModel> Villa = (List<VilladModel>)ViewData["Villa"];
+}
+
+<h2>Compound Resident</h2>
+
+
+
+<br />
+<br />
+<table style="width:100%" class="table table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Villa</th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (UserModel prd in User)
+    {
+        <tr>
+            <th scope="row">@prd.User_Id</th>
+            <td>@prd.User_Name</td>
+            <td>@prd.User_PhoneNumber</td>
+            <td>@prd.User_Email</td>
+            <td>@prd.Villa.Villa_Name</td>
+            <td> <img style="height: 100px; width:12em" src=@prd.Villa.Villa_Img alt=@prd.Villa.Villa_Id onclick="window.open()" /></td>
+            
+        </tr>
+    }
+</table> 

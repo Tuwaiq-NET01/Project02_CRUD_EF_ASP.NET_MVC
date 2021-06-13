@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Check";
+}
+@{
+
+    StaffModel Staff = (StaffModel)ViewData["Staff"];
+    var space = "\t";
+}
+
+<h2>@Staff.Staff_Name</h2>
+
+<br />
+<br />
+<br />
+<div style=" display:flex">
+    <figure class="figure">
+        <img src="@Staff.Staff_Img" class="figure-img img-fluid rounded" alt="@Staff.Staff_Name">
+    </figure>
+    <div style=" padding-left:3em">
+        <h3>@space Description:</h3>
+        <p style="width:30em">@Staff.UserId @Staff.User.User_Name</p>
+    </div>
+</div>
+<br />
+<br />

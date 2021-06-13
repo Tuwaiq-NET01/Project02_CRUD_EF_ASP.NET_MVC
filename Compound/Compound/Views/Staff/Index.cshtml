@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    List<StaffModel> Staff = (List<StaffModel>)ViewData["Staff"];
+    List<VilladModel> Villa = (List<VilladModel>)ViewData["Villa"];
+    List<ServiceModel> Services = (List<ServiceModel>)ViewData["Services"];
+    List<EventModel> Events = (List<EventModel>)ViewData["Events"];
+}
+
+<h2>Compound Team</h2>
+
+
+
+<br />
+<br />
+<table style="width:100%" class="table table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Available/Not</th>
+        </tr>
+    </thead>
+    @foreach (StaffModel prd in Staff)
+    {
+<tr>
+    <th scope="row">@prd.Staff_Id</th>
+    <td><a style="color:inherit "href="/staff/details/@(prd.Staff_Id)"> @prd.Staff_Name</a></td>
+    <td>@prd.Staff_PhoneNumber</td>
+    <td>@prd.Staff_Email</td>
+    <td>@(prd.Staff_AtWork?  "Not Available":"Available" )</td>
+
+</tr>
+    }
+</table>

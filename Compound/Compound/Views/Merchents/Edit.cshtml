@@ -1,0 +1,40 @@
+﻿
+@model Merchent
+@{
+    var merchent = (Merchent)ViewData["Merchent"];
+}
+
+
+
+
+
+<h1>Create Merchent page</h1>
+
+<form asp-action="Edit" method="post" asp-route-id="@merchent.Id" class="form-horizantal">
+
+
+
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <div>
+            <input asp-for="Name" value="@merchent.Name" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description">Description</label>
+        <div>
+            <input asp-for="Description" value="@merchent.Description" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price">Price</label>
+        <div>
+            <input asp-for="Price" value="@merchent.Price" />
+        </div>
+
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn-btn-primary" value="Edit" />
+    </div>
+</form>

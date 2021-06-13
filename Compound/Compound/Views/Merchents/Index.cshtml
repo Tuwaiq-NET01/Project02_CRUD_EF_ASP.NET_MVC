@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@{
+    List<Merchent> Merchent = (List<Merchent>)ViewData["Merchent"];
+
+}
+
+<h2>Merchents for the customers</h2>
+
+
+
+<br />
+<br />
+<table style="width:100%; align-content:center" class="table table table-striped ">
+    <thead class="thead-dark " style=" align-content:center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (Merchent prd in Merchent)
+    {
+        <tr>
+            <th scope="row">@prd.Id</th>
+            <td>@prd.Name</td>
+            <td>@prd.Description</td>
+            <td>@prd.Price</td>
+            <td><a class="btn btn-dark" asp-controller="Merchents" asp-action="Edit" asp-route-id="@prd.Id">Edit me</a></td>
+            <td>
+                <form method="post" asp-controller="Merchents" asp-action="Delete" asp-route-id="@prd.Id">
+                    <input type="submit" value="Delete" class="btn btn-outline-warning" />
+                </form>
+            </td>
+
+
+        </tr>
+    }
+</table>
+
+
+
+
+

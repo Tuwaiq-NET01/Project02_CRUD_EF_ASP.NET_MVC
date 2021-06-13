@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Details";
+}
+@{
+
+    StaffModel Staff = (StaffModel)ViewData["StaffList"];
+    List<UserModel> User = (List<UserModel>)ViewData["Users"];
+    var space = "\t";
+}
+
+<h2>@Staff.Staff_Name</h2>
+
+<br />
+<br />
+<br />
+<div style=" display:flex">
+    <figure class="figure">
+        <img style=" height:7em; width:10em ; border-radius: 30% " src="@Staff.Staff_Img" class="figure-img img-fluid rounded" alt="@Staff.Staff_Name">
+    </figure>
+    <div style=" padding-left:1em">
+        <h3>@space About me:</h3>
+        <p style="width:25em">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel est nec felis scelerisque lacinia. Etiam sollicitudin efficitur orci sed imperdiet. Nulla a lectus sit amet diam ultricies vulputate. Nam quis quam non nisl porttitor consequat. Nunc eget dui augue. Nam tincidunt ligula ac gravida faucibus. Morbi eu tempor urna. Vestibulum et tellus id arcu fermentum gravida id sed libero.
+        </p>
+        </div>
+        <div style=" padding-left:1em">
+        <h3>@space Status:</h3>
+
+        @if (@Staff.UserId != 0)
+        {<p style="width:30em">@Staff.Staff_Name serves right now @Staff.User.User_Name</p>}
+    else
+    {
+        <p style="width:20em">@Staff.Staff_Name is avalible for serving any user for need</p>
+    }
+
+    </div>
+</div>
+<br />
+<br />

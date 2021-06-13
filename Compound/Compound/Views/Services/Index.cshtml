@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    List<StaffModel> Staff = (List<StaffModel>)ViewData["Staff"];
+    List<ServiceModel> Services = (List<ServiceModel>)ViewData["Services"];
+}
+
+<h2>Compound Services</h2>
+
+
+
+<br />
+<br />
+<table style="width:100%; align-content:center" class="table table table-striped ">
+    <thead class="thead-dark " style=" align-content:center">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Staff</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    @foreach (ServiceModel prd in Services)
+    {
+        <tr>
+            <th scope="row">@prd.Service_Id</th>
+            <td>@prd.Service_Name</td>
+            @if (@prd.StaffId == 3)
+            {
+                <td>@prd.Staff.Staff_Name</td>
+            }
+            else
+            {
+                <td>@prd.Staff.Staff_Name</td>
+            }
+            <td><a class="btn btn-dark" asp-controller="Services" asp-action="Edit" asp-route-id="@prd.Service_Id">Edit</a></td>
+            <td>
+                <form method="post" asp-controller="Services" asp-action="Delete" asp-route-id="@prd.Service_Id">
+                    <input type="submit" value="Delete" class="btn btn-outline-warning" />
+                </form>
+            </td>
+        </tr>
+        
+    }
+</table>
+
+<a class=" btn btn-dark" asp-controller="Services" asp-action="Create" asp-route-id="">Add</a>

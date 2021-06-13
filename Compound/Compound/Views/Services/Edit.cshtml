@@ -1,0 +1,27 @@
+﻿@model ServiceModel
+
+@{
+    var Service = (ServiceModel)ViewData["Service"];
+}
+
+
+
+
+
+<h1>Editing product page</h1>
+
+<form asp-action="Edit" method="post" asp-route-id="@Service.Service_Id" class="form-horizantal">
+
+
+    <div class="form-group">
+        <label asp-for="Service_Name">Name</label>
+        <div>
+            <input asp-for="Service_Name" value="@Service.Service_Name" />
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <input type="submit" class="btn-btn-primary" value="Edit" />
+    </div>
+</form>

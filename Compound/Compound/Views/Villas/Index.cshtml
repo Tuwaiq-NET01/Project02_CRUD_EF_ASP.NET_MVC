@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@{
+    List<StaffModel> Staff = (List<StaffModel>)ViewData["Staff"];
+    List<VilladModel> Villa = (List<VilladModel>)ViewData["Villa"];
+    List<ServiceModel> Services = (List<ServiceModel>)ViewData["Services"];
+    List<EventModel> Events = (List<EventModel>)ViewData["Events"];
+}
+
+<h2>Our Villa</h2>
+
+
+<br />
+<br />
+<div class="card" style="width: 65rem; display:flex ;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); padding: 20px; align-content:center; ">
+    @foreach (VilladModel prd in Villa)
+    {
+
+        <img   class="card-img-top" src="@prd.Villa_Img" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@prd.Villa_Name</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    }
+
+</div>
+ 
