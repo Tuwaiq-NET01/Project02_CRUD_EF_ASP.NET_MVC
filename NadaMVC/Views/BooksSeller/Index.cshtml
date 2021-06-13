@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "BooksSeller Page";
+    var Books = (List<BooksSellerModel>)ViewData["BooksSeller"];
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">BooksSeller Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">image</th>
+            <th scope="col">show</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+
+        @foreach (var Book in Books)
+        {
+            <tr>
+                <td scope "row">@Book.SellerId</td>
+
+                <td>@Book.Name </td>
+
+                <td>
+                    <img style="width:200px;height:200px;" src="@Book.image" alt="@Book.image" />
+                <td>
+                    <a href="/BooksSeller/details/@Book.SellerId">
+                        @*<button type =" "button" class="btn"*@
+                        <button type1=" button" class="btn btn-danger">show</button>
+                    </a>
+
+                <td />
+            </tr>
+        }
+    </tbody>
+</table>

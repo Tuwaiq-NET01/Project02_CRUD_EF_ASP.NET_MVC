@@ -1,0 +1,42 @@
+﻿@model BookModel
+@{
+    var Book = (BookModel)ViewData["Book"];
+}
+<div style="width: 70%;">
+
+    <form asp-action="Edit" method="post" asp-route-id="@Book.BookId" class="form-horizontal">
+        <div class="form-group">
+            <label asp-for="BookId" style="color: azure">ID</label>
+            <div>
+                <input class="form-control" asp-for="BookId" value="@Book.BookId" readonly />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Title" style="color: azure">Title</label>
+            <div>
+                <input class="form-control" asp-for="Title" value="@Book.Title"  />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Published" style="color: azure">Published</label>
+            <div>
+                <input class="form-control" asp-for="Published" value="@Book.Published"  />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Published" style="color: azure">Published</label>
+            <div>
+                <input class="form-control" asp-for="Author" value="@Book.Author" />
+            </div>
+        </div>
+        <div class="form-group" style="display: inline-block">
+            <label asp-for="image" style="color: azure">image</label>
+            <div>
+                <input class="form-control" asp-for="image" value="@Book.image" />
+            </div>
+        </div>
+        <div>
+            <input type="submit" class="btn btn-success" value="Submit">
+        </div>
+    </form>
+</div>

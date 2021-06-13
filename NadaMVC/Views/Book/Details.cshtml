@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Details";
+    var Books = (BookModel)ViewData["Book"];
+}
+
+
+<h2>Author: @Books.Author </h2>
+<h2>Title: @Books.Title </h2>
+<h2>Published: @Books.Published </h2>
+<img src="@Books.image" alt="@Books.image" />
+

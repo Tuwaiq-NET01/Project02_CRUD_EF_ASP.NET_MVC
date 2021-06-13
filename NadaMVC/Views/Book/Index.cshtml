@@ -1,0 +1,101 @@
+﻿
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">BookId</th>
+            <th scope="col">Author</th>
+            <th scope="col">Title</th>
+            <th scope="col">Published</th>
+            <th scope="col">image</th>
+            <th scope="col">show</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+
+        @foreach (var Book in Books)
+        {
+            <tr>
+                <td scope "row">@Book.BookId</td>
+
+                <td>@Book.Author</td>
+                <td>
+                    @Book.Title
+                </td>
+                <td>@Book.Published</td>
+
+                <td>
+                    <img style="width:200px;height:200px;" src="@Book.image" alt="@Book.image" />
+                <td>
+                    <a href="/Book/details/@Book.BookId">
+                        <button type1=" button" class="btn btn-danger">show</button>
+                    </a>
+
+                <td />
+            </tr>
+        }
+    </tbody>
+</table>*@
+
+
+@{
+    ViewData["Title"] = "Book Page";
+    var Books = (List<BookModel>)ViewData["Book"];
+
+}
+
+
+
+<table class="table-bordered" style="width: 100%; margin: 0px;">
+    <thead style="background-color: wheat; text-align: center;">
+    <th scope="col"><a asp-controller="Book" asp-action="Create" class="btn btn-warning btn-circle"><strong>+</strong></a></th>
+
+    <tr style="width: 100%; margin: 0px;text-align: center;">
+
+        <th scope="col">BookId </th>
+        <th scope="col">Author </th>
+        <th scope="col">Title </th>
+        <th scope="col">Published </th>
+        <th scope="col">Image </th>
+
+        <th scope="col">Edit </th>
+        <th scope="col">Delete</th>
+        <th scope="col">Show</th>
+
+
+        </thead>
+        @foreach (var Book in Books)
+        {
+
+
+        <tbody style="background-color: purple;">
+            <tr style="width: 100%; margin: 0px; text-align: center; background-color: white;">
+                <th scope="row">@Book.BookId</th>
+                <td>@Book.Author</td>
+                <td>@Book.Title </td>
+                <td>@Book.Published</td>
+                <td><img style="width:200px;height:200px" ; src="@Book.image" /> </td>
+
+
+
+                <td>
+                    <a class="btn btn-danger" asp-controller="Book" asp-action="Edit" asp-route-id="@Book.BookId">Edit</a>
+                </td>
+                <td>
+                    <form method="post" asp-controller="Book" asp-action="Delete" asp-route-id="@Book.BookId">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+                <td>
+                    <a href="/Book/details/@Book.BookId">
+                        <button type1=" button" class="btn btn-danger">show</button>
+                    </a>
+                </td>
+          
+              
+            </tr>
+        </tbody>
+    }
+    </table>
