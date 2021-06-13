@@ -1,0 +1,41 @@
+﻿@model Room
+@{ 
+    var room = (Room)ViewData["room"];
+}
+
+<form asp-action="Edit" method="post" class="form-horizontal">
+    <div class="form-group">
+        <label asp-for="RoomType">Room Type</label>
+        <div>
+            <input asp-for="RoomType" value="@room.RoomType"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RoomRate">Room Rate</label>
+        <div>
+            <input asp-for="RoomRate" value="@room.RoomRate"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RoomLocation">Room Location</label>
+        <div>
+            <input asp-for=" RoomLocation" value="@room.RoomLocation"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NumberOfBeds">Number of Beds</label>
+        <div>
+            <input asp-for=" NumberOfBeds" value="@room.NumberOfBeds"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+
+
+        <input type="submit" class="btn btn-primary" value="Update" />
+
+    </div>
+</form>

@@ -1,0 +1,48 @@
+﻿
+@{ 
+    var hotels = (List<Hotel>)ViewData["hotels"];
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope=" col">Id</th>
+            <th scope=" col">Name</th>
+            <th scope=" col">City</th>
+            <th scope=" col">State</th>
+            <th scope=" col">Zipcode</th>
+            <th scope=" col">Phone Number</th>
+
+            <th scope=" col">Details</th>
+            <th scope=" col">Edit</th>
+            <th scope=" col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var hotel in hotels)
+            {
+        <tr>
+            <td scope="row">@hotel.HotelId</td>
+            <td scope="row">@hotel.Name</td>
+            <td scope="row">@hotel.City</td>
+            <td scope="row">@hotel.State</td>
+            <td scope="row">@hotel.Zipcode</td>
+            <td scope="row">@hotel.PhoneNumber</td>
+
+            <td><button type="button" class="btn btn-dark"><a style="color:white" href="/Hotels/details/@hotel.HotelId">SHOW</a></button></td>
+            <td><a class="btn btn-primary" asp-controller="Hotels" asp-action="Edit" asp-route-id=@hotel.HotelId>Edit</a></td>
+            <td>
+                <form method="post" asp-controller="Hotels" asp-action="Delete" asp-route-id="@hotel.HotelId">
+                    <input type="submit" value="Delete" class="btn btn-danger"/>
+                </form>
+               
+            </td>
+
+
+        </tr>
+            }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-controller="Hotels" asp-action="Create"> Add New Hotel</a>

@@ -1,0 +1,17 @@
+﻿@{ 
+    var room = (Room)ViewData["room"];
+
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"> Room Number: @room.RoomNumber</h5>
+        <p class="card-text"> Room Type: @room.RoomType</p>
+        <p class="card-text"> Room Location: @room.RoomLocation</p>
+        <p class="card-text"> Room Rate: @room.RoomRate</p>
+        <p class="card-text"> Number of Beds: @room.NumberOfBeds</p>
+       
+    </div>
+</div>
+
+<a asp-controller="Rooms" asp-action="Index">Back to Room</a>

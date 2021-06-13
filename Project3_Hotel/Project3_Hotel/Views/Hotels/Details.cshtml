@@ -1,0 +1,16 @@
+﻿@{ 
+    var hotel = (Hotel)ViewData["hotel"];
+
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title"> Name: @hotel.Name</h5>
+        <p class="card-text"> City: @hotel.City</p>
+        <p class="card-text"> State: @hotel.State</p>
+        <p class="card-text"> Zipcode: @hotel.Zipcode</p>
+        <p class="card-text"> Phone Number: @hotel.PhoneNumber</p>
+    </div>
+</div>
+
+<a asp-controller="Hotels" asp-action="Index">Back to Hotels</a>
