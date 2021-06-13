@@ -15,14 +15,11 @@
     - تطبيق وظيفة  Read  
     - تطبيق وظيفة Update 
     - تطبيق وظيفة Delete 
-# إضافة | Bouns 
-- التعامل مع React في المشروع بأستخدام الـ API
 
 
+<img src="img/img1.png">
+<img src="img/img2.png">
 
- # التسليم:
 
-تاريخ June 13th، الساعة 9:00 am
-قبل كلاس يوم الأحد 
-    
+Taghreed Alqahtani 
 </div>

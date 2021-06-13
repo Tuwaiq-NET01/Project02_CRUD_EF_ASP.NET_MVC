@@ -1,0 +1,18 @@
+﻿@{
+    var Physician = (PhysicianModel)ViewBag.Physicians;
+    var url = (Physician.Gender == "Female" ? "https://i.pinimg.com/originals/d3/f9/13/d3f913b8dd27fac04b26c2c9a903610d.png" : "https://i.pinimg.com/originals/e3/7e/14/e37e14e207070d62cfc4d0b050f3ad91.png");
+
+}
+<center>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            <img src=@url class="card-img-top" alt="...">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title text-info"> @Physician.Position | @Physician.Name</h5>
+            <p class="card-text alert-info">Doctor's ID : @Physician.Id</p>
+            <p class="card_text"> Gender : @Physician.Gender </p>
+            <a href="/appointments/create/@Physician.Id" class="btn btn-outline-danger">Book an appointment</a>
+        </div>
+    </div>
+</center>

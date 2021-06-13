@@ -1,0 +1,27 @@
+﻿@model AppointmentModel
+@{
+    var Appointment = (AppointmentModel)ViewData["Appointment"];
+}
+<center>
+    <form asp-action="edit" method="post" class=" form-horizontal">
+        <div class=" form-group">
+            <label asp-for="ID">ID</label>
+            <input asp-for="ID" value=@Appointment.ID />
+        </div>
+        <div class=" form-group">
+            <label asp-for="Date_Time">Date</label>
+            <input asp-for="Date_Time" value=@Appointment.Date_Time />
+        </div>
+        <div class=" form-group">
+            <label asp-for="PatientId">Patient</label>
+            <input asp-for="PatientId" value=@Appointment.PatientId />
+        </div>
+        <div class=" form-group">
+            <label asp-for="PhysicianId">Doctor</label>
+            <input asp-for="PhysicianId" value=@Appointment.PhysicianId />
+        </div>
+        <div class=" form-group">
+            <input type="submit" class=" btn btn-primary" value="Update" />
+        </div>
+    </form>
+</center>

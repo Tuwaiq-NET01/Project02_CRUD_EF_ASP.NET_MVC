@@ -1,0 +1,32 @@
+﻿@{
+    var departments = (List<DepartmentModel>)ViewBag.Departments;
+    var Doctors = (List<PhysicianModel>)ViewData["Doctors"];
+
+}
+<h3>
+    DEPARTMENTS
+    <small class="text-muted">Table</small>
+</h3>
+<table class="table table-dark table-hover">
+    <thead>
+        <tr>
+            <th>Department ID</th>
+            <th>Department Name</th>
+            <th>Head Manager</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in departments)
+        {
+            <tr>
+                <td>@department.ID</td>
+                <td>@department.Name</td>
+                <td><a href="/Physicians/details/@department.PhysicianId">
+    @{foreach (var Doctor in Doctors)
+            if (Doctor.Id == department.PhysicianId)
+                @Doctor.Name}
+</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
