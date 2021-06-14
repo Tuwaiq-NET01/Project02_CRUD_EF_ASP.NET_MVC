@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ArtGalleryCRUD\\ArtGalleryCRUD\\ArtGalleryCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Tuwaiq_Bootcamp\\ASP_NET_MVC\\Project03_CRUD_With_ASP.NET_MVC\\ArtGalleryCRUD\\ArtGalleryCRUD\\ArtGalleryCRUD.csproj",
       "projectName": "ArtGalleryCRUD",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\ArtGalleryCRUD\\ArtGalleryCRUD\\ArtGalleryCRUD.csproj",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Tuwaiq_Bootcamp\\ASP_NET_MVC\\Project03_CRUD_With_ASP.NET_MVC\\ArtGalleryCRUD\\ArtGalleryCRUD\\ArtGalleryCRUD.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\ArtGalleryCRUD\\ArtGalleryCRUD\\obj\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Tuwaiq_Bootcamp\\ASP_NET_MVC\\Project03_CRUD_With_ASP.NET_MVC\\ArtGalleryCRUD\\ArtGalleryCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
