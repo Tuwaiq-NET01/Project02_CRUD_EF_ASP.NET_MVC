@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{C54891C7-3D49-4E89-950C-6D7719C63919}|Default">
+  <MonoDevelop.Ide.ItemProperties.third__project__ PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="third_project_/Views/Quotations/Index.cshtml">
+    <Files>
+      <File FileName="third_project_/Controllers/QuotationsController.cs" Line="76" Column="10" />
+      <File FileName="third_project_/Views/Quotations/Index.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="third_project_" expanded="True">
+            <Node name="third_project_" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Quotations" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

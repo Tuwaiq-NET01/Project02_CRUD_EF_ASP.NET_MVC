@@ -1,0 +1,34 @@
+﻿
+@{
+    var Quotations = (List<QuotationModel>)ViewData["Quotations"];
+    // Layout = "WebLayout";
+
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Posted By id</th>
+            <th scope="col">Quotation says</th>
+            <th scope="col">View</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Quotation in Quotations)
+        {
+        <tr>
+            <td>@Quotation.StudentId</td>
+            <td>@Quotation.Message</td>
+            <td><button type="button" class="btn btn-primary"><a style="color:white" href="/Quotations/details/@Quotation.Id"> SHOW </a></button></td>
+            <td><button type="button" class="btn btn-warning"><a asp-controller="Quotations" asp-action="Edit" asp-route-Id="@Quotation.Id"> Edit </a></button></td>
+            <td>
+                    <form method="post" asp-action="Delete" asp-route-id="@Quotation.Id" asp-controller="Quotations">
+                        <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
+                    </form>
+               </td>
+        </tr>
+        }
+        </tbody>
+</table>

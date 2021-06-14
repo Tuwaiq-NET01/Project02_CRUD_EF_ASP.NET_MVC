@@ -1,0 +1,13 @@
+﻿@{
+    var Quotation = (QuotationModel)ViewData["Quotation"];
+}
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Id: @Quotation.Id</h5>
+        <p class="card-text">Quotation: @Quotation.Message</p>
+    </div>
+</div>
+
+<a asp-controller="Quotations" asp-action="Index">Back to Quotations</a>

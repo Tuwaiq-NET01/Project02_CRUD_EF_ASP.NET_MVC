@@ -1,0 +1,25 @@
+﻿
+@model QuotationModel
+@{
+    var Quotation = (QuotationModel)ViewData["Quotation"];
+}
+<form asp-action="Edit" method="post" class="form-horizontal">
+
+    <div class="form-group">
+        <input type="hidden" asp-for="Id" value="@Quotation.Id" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Message">Message</label>
+        <input asp-for="Message" value="@Quotation.Message" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StudentId">StudentId</label>
+        <input asp-for="StudentId" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" value="update">Edit</button>
+    </div>
+</form>
